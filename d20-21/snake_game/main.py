@@ -31,7 +31,7 @@ screen.listen()
 # step 2 + 3
 while GAME_ON == True:
     screen.update()
-    time.sleep(0.15)
+    time.sleep(0.1)
     snake.move()
     screen.onkeypress(fun=snake.right, key="Right")
     screen.onkeypress(fun=snake.left, key="Left")
@@ -50,7 +50,7 @@ while GAME_ON == True:
         scoreboard.game_over()
 
     for index in range(1,snake.len):
-        if snake.head.xcor() == snake.snake[index].xcor() and snake.head.ycor() == snake.snake[index].ycor():
+        if snake.head.distance(snake.snake[index]) < 10:
             GAME_ON = False
             scoreboard.game_over()
 
