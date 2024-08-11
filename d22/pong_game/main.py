@@ -1,9 +1,7 @@
-from paddle import *
-# from pong import Pong
-from scoreboard import ScoreBoard
-import random
+from turtle import Screen, Turtle
+from paddle import Paddle, SCREEN_SIZE
 import time
-import numpy as np
+
 
 
 # step 1 - create screen
@@ -13,13 +11,16 @@ screen.bgcolor("black")
 screen.title("Welcome to Pong Game")
 
 
-# scoreboard = ScoreBoard()
-paddle = Paddle()
-left_paddle = paddle.create_paddle(side='left')
-right_paddle = paddle.create_paddle(side='right')
 
 
-# pong = Pong()
+left_paddle = Paddle("left")
+right_paddle = Paddle("right")
 
-# screen.listen()
+screen.listen()
 
+screen.onkey(fun=left_paddle.up, key="w")
+screen.onkey(fun=left_paddle.down, key="a")
+screen.onkey(fun=right_paddle.up, key="o")
+screen.onkey(fun=right_paddle.down, key="l")
+
+screen.exitonclick()

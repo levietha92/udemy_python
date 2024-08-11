@@ -1,34 +1,29 @@
-from turtle import Turtle, Screen
+from turtle import Turtle
 
-MOVE_DISTANCE = 15
-SCREEN_SIZE = 1000
-HALF_SIZE = SCREEN_SIZE / 2
-GAME_ON = True
-UP = 90
+SCREEN_SIZE = 800
+HALF_SIZE = SCREEN_SIZE/2
+MOVE_DISTANCE = 20
 
 class Paddle(Turtle):
-    def __init__(self):
+    def __init__(self, side):
         super().__init__()
-        self.paddle = []
-        self.create_paddle(side='left')
-        self.head = self.paddle[0]
+        self.paddle = Turtle(shape='square')
+        self.side = side
+        self.paddle.penup()
+        self.paddle.color("white")
+        self.paddle.shapesize(5,1)
+        if self.side == "left":
+            self.paddle.goto(-HALF_SIZE + 30,0)
+        else:
+            self.paddle.goto(HALF_SIZE - 30,0)
 
-    def create_paddle(self, side):
-        for ycor in [-MOVE_DISTANCE, 0, MOVE_DISTANCE]:
-            square = Turtle(shape="square")
-            square.penup()
-            square.color("white")
-            square.speed(0)
-            if side == 'left':
-                square.goto(-HALF_SIZE+20,ycor)
-            else:
-                square.goto(HALF_SIZE-20,ycor)
-            self.paddle.append(square)
-    
-    # def move(self):
-    #     for index in range(len(self.paddle)-1,0, -1):
-    #         new_x = self.paddle[index - 1].xcor()
-    #         new_y = self.paddle[index - 1].MOVE_DISTANCE()
-    #         self.paddle[index].goto(new_x, new_y)
-    #     self.head.setheading(UP)
-    #     self.head.forward(MOVE_DISTANCE)
+        self.up()
+        self.down()            
+
+    def up(self):
+        new_y = self.paddle.ycor() + MOVE_DISTANCE
+        self.paddle.goto(self.paddle.xcor(), new_y)
+
+    def down(self):
+        new_y = self.paddle.ycor() - MOVE_DISTANCE
+        self.paddle.goto(self.paddle.xcor(), new_y)
