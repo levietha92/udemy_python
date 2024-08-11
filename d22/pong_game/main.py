@@ -9,6 +9,7 @@ screen = Screen()
 screen.setup(SCREEN_SIZE,SCREEN_SIZE)
 screen.bgcolor("black")
 screen.title("Welcome to Pong Game")
+screen.tracer(0)
 
 
 
@@ -23,4 +24,9 @@ screen.onkey(fun=left_paddle.down, key="a")
 screen.onkey(fun=right_paddle.up, key="o")
 screen.onkey(fun=right_paddle.down, key="l")
 
+game_is_on = True
+
+while game_is_on:
+    screen.update()
+    
 screen.exitonclick()
