@@ -63,7 +63,7 @@ while game_is_on:
         right_strike += 1
         pong.reset()
     
-    if pong.xcor() <= -HALF_SIZE + 15:
+    if pong.xcor() <= -HALF_SIZE - 15:
         right_score.add_score()
         left_strike += 1
         pong.reset()
