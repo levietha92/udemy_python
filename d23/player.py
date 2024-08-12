@@ -22,8 +22,7 @@ class Player(Turtle):
         self.backward(MOVE_DISTANCE)
 
     def reach_finish_line(self):
-        if self.ycor() >= FINISH_LINE_Y:
-            self.write("YOU WON", False, font=("Arial", 50, "normal"))
+        if self.ycor() >= FINISH_LINE_Y:        
             return True
         else:
             return False
