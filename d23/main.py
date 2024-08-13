@@ -14,15 +14,16 @@ tim = Player()
 car_list = []
 game_is_on = True
 loop = 0
+#increasing level
+level = 0
 
 while game_is_on:
-    
     time.sleep(0.03)
     screen.update()
     screen.onkey(fun=tim.go_forward, key="Up")
     # screen.onkey(fun=tim.go_backward, key="Down")
     loop += 1
-    if loop % 4 == 0:
+    if loop % (6-level) == 0:
         i = CarManager()
         car_list.append(i)
 
@@ -33,8 +34,9 @@ while game_is_on:
             game_is_on = False
 
     if tim.reach_finish_line():
-        screen._write((0,0), "You won!", "center", "Arial", "white")
-        game_is_on = False
+        level +=1
+        screen._write((0,0), f"You won! To level {level}", "center", "Arial", "white")
+        tim.player_reset()
     
     
     
