@@ -1,5 +1,6 @@
 from turtle import Turtle, Screen
 from snake import HALF_SIZE
+import os
 
 ALIGN = "center"
 FONT = "Courier"
@@ -11,7 +12,8 @@ class ScoreBoard(Turtle):
         
         super().__init__()
         self.score = 0
-        self.high_score = 0
+        with open("./data.txt") as file:
+            self.high_score = file.read()
         self.color("white")
         self.penup()
         self.setx(0)
@@ -22,7 +24,7 @@ class ScoreBoard(Turtle):
 
     def update_text(self):
         self.clear()
-        self.write(f"Score = {self.score}, Highest score = {self.high_score}", False, align=ALIGN, font=(FONT, FONTSIZE, FONTTYPE))
+        self.write(f"Score: {self.score} | High score: {int(self.high_score)}", False, align=ALIGN, font=(FONT, FONTSIZE, FONTTYPE))
     
     def add_score(self):
         self.score += 1
@@ -34,8 +36,15 @@ class ScoreBoard(Turtle):
         self.clear()
 
     def reset(self):
-        if self.score > self.high_score:
+        if self.score > int(self.high_score):
             self.high_score = self.score
+            with open("./data.txt", mode="w") as file:
+                file.write(str(self.high_score))
         self.score = 0
         self.update_text()
         
+# with open("./data.txt") as file:
+#     print(file.read())
+
+# with open("./data.txt", mode="w") as file:
+#     file.write("0")    
