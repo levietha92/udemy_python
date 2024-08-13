@@ -37,7 +37,6 @@ while game_is_on:
     if tim.reach_finish_line():
         level +=1
         score.update_score()
-        screen.clear()
         screen._write((0,0), f"You won! To level {level}", "center", "Arial", "white")
         tim.player_reset()
     

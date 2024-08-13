@@ -16,4 +16,4 @@ class Scoreboard(Turtle):
     def update_score(self):
         self.score += 1
         self.clear()
-        self.write(f"{self.score}", FONT)
+        self.write(f"{self.score}", align="left", font=FONT)
