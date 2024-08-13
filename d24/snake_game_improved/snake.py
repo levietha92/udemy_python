@@ -2,7 +2,7 @@ from turtle import Turtle, Screen
 import time
 import random
 
-DISTANCE = 15
+DISTANCE = 18
 SCREEN_SIZE = 600
 HALF_SIZE = SCREEN_SIZE / 2
 UP = 90
@@ -14,14 +14,13 @@ GAME_ON = True
 class Snake:
     def __init__(self,snake_length=3):
         # super().__init__()
-        # self.square = Turtle(shape="square")
         self.snake = []
         self.pos = []
         self.create_snake()
-        # self.create_square()
         self.head = self.snake[0]
         self.tail = self.snake[-1]
         self.len = snake_length
+        # self.move()
 
     def create_square(self):
         self.square = Turtle(shape="square")
@@ -69,8 +68,12 @@ class Snake:
         self.len += 1
 
     def reset(self):
-        for index in self.snake:
-            self.snake[index].clear()
-            # self.snake[index].goto(1000,1000)
-        self.create_snake()
-        self.move()
+        for square in self.snake:
+            square.goto(1000,1000)
+        # self.snake.clear()
+        # self.create_snake()
+        # self.head = self.snake[0]
+        # self.tail = self.snake[-1]
+        # self.len = snake_length
+        
+        # self.move()

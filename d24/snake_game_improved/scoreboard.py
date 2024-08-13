@@ -18,6 +18,7 @@ class ScoreBoard(Turtle):
         self.sety(HALF_SIZE-20)
         self.update_text()    
         self.hideturtle()
+        self.goto(0,HALF_SIZE-30)
 
     def update_text(self):
         self.clear()
@@ -30,7 +31,7 @@ class ScoreBoard(Turtle):
     def game_over(self):
         self.goto(0,0)
         self.write("GAME OVER!", False, align=ALIGN, font=(FONT, FONTSIZE, FONTTYPE))
-        # self.clear()
+        self.clear()
 
     def reset(self):
         if self.score > self.high_score:

@@ -43,15 +43,21 @@ while GAME_ON == True:
         snake.add_length()
         scoreboard.add_score()
         food.refresh()
-    
-# step 6: collision cases
-    if abs(snake.head.xcor()) >= HALF_SIZE or abs(snake.head.ycor()) >= HALF_SIZE:
-        GAME_ON = False
-        scoreboard.game_over()
 
-    for index in range(1,snake.len):
-        if snake.head.distance(snake.snake[index]) < 10:
-            GAME_ON = False
-            scoreboard.game_over()
+# step 6: collision with wall
+    if abs(snake.head.xcor()) >= HALF_SIZE or abs(snake.head.ycor()) >= HALF_SIZE:
+        scoreboard.reset()
+        snake.reset()
+        snake = Snake()
+        snake.move()
+
+# step 6: collision with itself:
+    for square in snake.snake[1:snake.len+1]:
+        if snake.head.distance(square) < 10:
+            print("uhoh")
+            scoreboard.reset()
+            snake.reset()
+            snake = Snake()
+            snake.move()
 
 screen.exitonclick()
