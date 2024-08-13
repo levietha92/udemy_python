@@ -24,20 +24,20 @@ while game_is_on:
     screen.onkey(fun=tim.go_forward, key="Up")
     # screen.onkey(fun=tim.go_backward, key="Down")
     loop += 1
-    if loop % (6-level) == 0:
+    if loop % (6-level) == 0: #built in selfdestruct game ;)
         i = CarManager()
         car_list.append(i)
 
     for car in car_list:
         car.move()
         if tim.distance(car) <= 15:
-            screen._write((0,0), "GAME OVER", "center", "Arial", "red")
+            score.game_over()
             game_is_on = False
 
     if tim.reach_finish_line():
         level +=1
         score.update_score()
-        screen._write((0,0), f"You won! To level {level}", "center", "Arial", "white")
+        # score.level_up()
         tim.player_reset()
     
     

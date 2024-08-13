@@ -25,4 +25,4 @@ class CarManager(Turtle):
             
 
     def move(self):
-        self.forward(MOVE_INCREMENT)
+        self.forward(STARTING_MOVE_DISTANCE)
