@@ -1,5 +1,6 @@
 import pandas as pd
 from turtle import Turtle, Screen
+from scoreboard import ScoreBoard
 
 FONT = ("Arial",12,"normal")
 
@@ -11,7 +12,8 @@ image = "blank_states_img.gif"
 screen.addshape(image)
 turtle = Turtle()
 turtle.shape(image)
-scoreboard = Turtle()
+scoreboard = ScoreBoard()
+scoreboard.show_score()
 
 
 data = pd.read_csv('50_states.csv')
@@ -22,10 +24,6 @@ score = 0
 answered_state = []
 
 while game_is_on:
-    scoreboard.hideturtle()
-    scoreboard.penup()
-    scoreboard.goto(350,350)
-    scoreboard.write(f"Score: {score}", False, align="right", font=("Arial",30,"normal"))
     # Getting the coordinate of the answered state
     user_answer = screen.textinput(title="",prompt="Name a US State").lower()
     ## If wrong state
@@ -37,9 +35,8 @@ while game_is_on:
         state_y = int(data[data.state_lower == user_answer].y.iloc[0])
         print(state_x, state_y)
         answered_state.append(user_answer)
-        score += 1
-        scoreboard.clear()
-        scoreboard.write(f"Score: {score}", False, align="right", font=("Arial",30,"normal"))
+        scoreboard.add_score()
+        scoreboard.show_score()
 
     # With given coordinate, identify on picture
     state_received = Turtle()
