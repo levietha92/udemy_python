@@ -13,27 +13,31 @@ GAME_ON = True
 
 class Snake:
     def __init__(self,snake_length=3):
+        # super().__init__()
+        # self.square = Turtle(shape="square")
         self.snake = []
         self.pos = []
         self.create_snake()
+        # self.create_square()
         self.head = self.snake[0]
         self.tail = self.snake[-1]
         self.len = snake_length
 
+    def create_square(self):
+        self.square = Turtle(shape="square")
+        self.square.penup()
+        self.square.shapesize(0.85,0.85,1)
+        self.square.color("white")
+        self.square.speed(0)
+
     def create_snake(self,snake_length=3):
-        # pos = [0,-10,20]
         for index in range(0,snake_length):
             pos_unit = -index * DISTANCE
             self.pos.append(pos_unit)
-            square = Turtle(shape="square")
-            square.shapesize(0.85,0.85,1)
-            square.penup()
-            square.color("white")
-            square.setx(self.pos[index])
-            square.sety(0)
-            square.speed(0)
-            self.snake.append(square)
-
+            self.create_square()
+            self.square.setx(self.pos[index])
+            self.square.sety(0)
+            self.snake.append(self.square)
 
     def move(self):
         for index in range(len(self.snake)-1,0, -1):
@@ -59,12 +63,14 @@ class Snake:
             self.head.setheading(LEFT)
 
     def add_length(self):
-        square = Turtle(shape="square")
-        square.penup()
-        square.shapesize(0.85,0.85,1)
-        square.color("white")
-        square.speed(0)
-        square.goto(self.tail.xcor(), self.tail.ycor())
-        self.snake.append(square)
+        self.create_square()
+        self.square.goto(self.tail.xcor(), self.tail.ycor())
+        self.snake.append(self.square)
         self.len += 1
 
+    def reset(self):
+        for index in self.snake:
+            self.snake[index].clear()
+            # self.snake[index].goto(1000,1000)
+        self.create_snake()
+        self.move()
