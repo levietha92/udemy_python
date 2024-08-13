@@ -39,10 +39,10 @@ left_strike = 0
 right_strike = 0
 
 while game_is_on:
-    time.sleep(0.1)
+    time.sleep(0.02)
     screen.update()
     pong.move()
-    print(f"Heading = {pong.heading()}, {pong.pos()}")
+    # print(f"Heading = {pong.heading()}, {pong.pos()}")
     
     # Collision with paddle --> bounce
     if pong.distance(right_paddle) <= PADDLE_DISTANCE and pong.xcor() > HALF_SIZE - PADDLE_DISTANCE:
