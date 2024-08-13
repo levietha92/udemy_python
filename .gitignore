@@ -4,3 +4,4 @@ __pycache__
 .vscode
 .zed
 log.json
+.DS_Store
