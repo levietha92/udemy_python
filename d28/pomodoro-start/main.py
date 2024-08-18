@@ -10,26 +10,31 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 25
-SHORT_BREAK_MIN = 5
-LONG_BREAK_MIN = 20
+WORK_MIN = 1 #25
+SHORT_BREAK_MIN = 1 #5
+LONG_BREAK_MIN = 1 #20
 
-# ---------------------------- TIMER RESET ------------------------------- # 
+# ---------------------------- TIMER RESET ------------------------------- #
 
-# ---------------------------- TIMER MECHANISM ------------------------------- # 
+# ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
     count_down(WORK_MIN*60)
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
+# ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 
 def count_down(count):
     count_min = math.floor(count / 60)
     count_sec = count % 60
+    #dynamic typing is possible in python!
+    if count_min < 10:
+        count_min = f"0{count_min}"
+    if count_sec < 10:
+        count_sec = f"0{count_sec}"
     
     canvas.itemconfig(countdown_text, text=f"{count_min}:{count_sec}")
-    print(f"{count_min}:{count_sec}")
+    # print(f"{count_min}:{count_sec}")
     if count > 0:
-        window.after(1000, count_down, count-1)
-        
+        window.after(100, count_down, count-1)
+
 # ---------------------------- UI SETUP ------------------------------- #
 
 # Windows
@@ -42,7 +47,7 @@ canvas = tkinter.Canvas(width=280, height=250,bg=YELLOW, highlightthickness=0)
 tomota_img = tkinter.PhotoImage(file="tomato.png")
 canvas.create_image(140,130, image=tomota_img)
 
-countdown_text = canvas.create_text(140,145, text="25:00", fill="white", font=(FONT_NAME,35,"bold"))
+countdown_text = canvas.create_text(140,145, text=f"{WORK_MIN}:00", fill="white", font=(FONT_NAME,35,"bold"))
 canvas.grid(column=1, row=1)
 # count_down(5)
 
