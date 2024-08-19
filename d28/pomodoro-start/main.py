@@ -15,41 +15,40 @@ SHORT_BREAK_MIN = 2 #5
 LONG_BREAK_MIN = 3 #20
 
 REP = 0
-# timer = None
+timer = None
 
 # ---------------------------- TIMER RESET ------------------------------- #
 def reset():
-    global REP
-    REP = 0
+    global REP, timer
     window.after_cancel(timer)
-    timer.config(text="Timer", fg=GREEN)
+    title_label.config(text="Timer", fg=GREEN)
     checkmark.config(text="")
     canvas.itemconfig(countdown_text, text=f"00:00")
-    
+    REP = 0
 
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
-    global REP, timer
+    global REP
     REP += 1
     print(f"REP:{REP}")
     # 8th, etc.
     if  REP % 8 == 0:
         count_down(LONG_BREAK_MIN * 60)
-        timer.config(text=f"Break:{LONG_BREAK_MIN}", fg=RED)
+        title_label.config(text=f"Break:{LONG_BREAK_MIN}", fg=RED)
         
     # 1st, 3rd, 5th, 7th... --> 
     elif REP % 2 != 0 or REP == 0:
         count_down(WORK_MIN * 60)
-        timer.config(text=f"Work:{WORK_MIN}", fg=GREEN) 
+        title_label.config(text=f"Work:{WORK_MIN}", fg=GREEN) 
     # 2nd, 4th, etc.
     else:
         count_down(SHORT_BREAK_MIN * 60)
-        timer.config(text=f"Break:{SHORT_BREAK_MIN}", fg=RED)
+        title_label.config(text=f"Break:{SHORT_BREAK_MIN}", fg=RED)
     
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 
 def count_down(count):
-    global REP
+    global REP, timer
     count_min = math.floor(count / 60)
     count_sec = count % 60
     #dynamic typing is possible in python!
@@ -83,8 +82,8 @@ canvas.grid(column=1, row=1)
 # count_down(5)
 
 # Texts
-timer = tkinter.Label(text="Timer", bg=YELLOW, fg=GREEN,font=(FONT_NAME,40,"normal"))
-timer.grid(column=1, row=0)
+title_label = tkinter.Label(text="Timer", bg=YELLOW, fg=GREEN,font=(FONT_NAME,40,"normal"))
+title_label.grid(column=1, row=0)
 
 checkmark = tkinter.Label(text="", bg=YELLOW, highlightthickness=0)
 checkmark.grid(column=1, row=2)
