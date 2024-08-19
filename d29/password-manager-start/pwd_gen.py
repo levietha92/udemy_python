@@ -21,9 +21,7 @@ def password_generator():
 
     random.shuffle(password)
 
-    password_str_new = ""
-    for i in range(0,len(password)):
-      password_str_new += password[i]
-    
+    password_str_new = "".join(password)
+  
     print("Password generation completed")
     return password_str_new 
