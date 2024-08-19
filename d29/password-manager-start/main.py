@@ -1,16 +1,19 @@
 from tkinter import *
 from tkinter import messagebox
 from pwd_gen import password_generator
+import pyperclip
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def password_insert():
     new_pwd = password_generator()
     pwd_entry.insert(index=0,string=new_pwd)
+    pyperclip.copy(new_pwd) # this helps you copy into clipboard
     cfm_popup = messagebox.askyesno(title="Password generated", message=f"Your password is {new_pwd}")
     return cfm_popup
     
 def password_confirm():
     if password_insert() != True:
         password_insert()
+    
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def add_password():
