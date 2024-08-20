@@ -28,8 +28,13 @@ def add_password():
         "password": pwd
     }}
     if cfm_popup == True:
+        with open("data.json", mode="r") as file:
+            # Read old data
+            data = json.load(file)
+            # Update old data with new data
+            data.update(row_insert)
         with open("data.json", mode="w") as file:
-            json.dump(row_insert, file, indent=4) #indent for easy reading
+            json.dump(data, file, indent=4)
     # then delete them
     website_entry.delete(0,'end')
     pwd_entry.delete(0,'end')

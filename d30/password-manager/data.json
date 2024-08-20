@@ -2,5 +2,9 @@
     "llala": {
         "email": "mumbojumbo@gmail.com",
         "password": "237489324"
+    },
+    "test_add_json": {
+        "email": "mumbojumbo@gmail.com",
+        "password": "2837y498jd"
     }
 }
