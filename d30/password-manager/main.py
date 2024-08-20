@@ -19,11 +19,15 @@ def password_confirm():
 # ---------------------------- SEARCH PASSWORD ------------------------------- #
 def search():
     website = website_entry.get()
-    # website = "test_no_json"
-    with open("data.json", mode="r") as file:
-        data = json.load(file)
-        print(data[website])
-        inform_popup = messagebox.showinfo(title=f"{website}", message=f"Email: {data[website]['email']} \n Password: {data[website]['password']}")
+    try:
+        with open("data.json", mode="r") as file:
+            data = json.load(file)
+            print(data[website])
+            inform_popup = messagebox.showinfo(title=f"{website}", message=f"Email: {data[website]['email']} \n Password: {data[website]['password']}")
+    except FileNotFoundError:
+        messagebox.showinfo(title=f"Error", message="No data file found")
+    except KeyError:
+        messagebox.showinfo(title=f"Error", message="You don't have that password yet")
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def add_password():
     website = website_entry.get()
