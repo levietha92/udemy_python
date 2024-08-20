@@ -16,26 +16,30 @@ timer = None
 random_index = None
 fr_word = ""
 en_word = ""
+learned = [["French", "English"]]
 
 #------------------------------- FUNCTIONS -------------------------------#
 def show_answer():
-    global en_word
+    global random_index, fr_word, en_word
     # change card to back
     card.create_image(400,263,image=card_back_img)
     # replace fr_word with en_word
     word_label.config(text=en_word, bg=BACKCARD_COLOR)
     # replace title with English
     title_label.config(text="English", bg=BACKCARD_COLOR)
-
+    # when users cannot guess then they clicked this option, so this word should be kept in to_learn
+    learned.append([fr_word,en_word])
+    pd.DataFrame(learned).to_csv("data/learned.csv")
+    
 def countdown():
-    # while game_is_on:
+    global timer
     timer = window.after(WAIT_TIME, func=show_answer)
 
 def next_word():
     global random_index, fr_word, en_word
     random_index = random.randint(0, len(data)-1)
-    fr_word = data.iloc[random_index]['French']
-    en_word = data.iloc[random_index]['English']
+    fr_word = to_learn.iloc[random_index]['French']
+    en_word = to_learn.iloc[random_index]['English']
     print(random_index, fr_word, en_word)
     # change card to front
     card.create_image(400,263,image=card_front_img)
@@ -43,9 +47,16 @@ def next_word():
     word_label.config(text=fr_word, bg=FRONTCARD_COLOR)
     # replace title with LANG
     title_label.config(text="French", bg=FRONTCARD_COLOR)
+    countdown() #thought of this correctly, yey
+    # when users guess correctly, this word should be removed from to_learn
+    to_learn.drop(axis=0, index=random_index, inplace=True)
+    to_learn.to_csv("data/to_learn.csv")
 
 #------------------------------- SETUP DATA -------------------------------#
 data = pd.read_csv("data/french_words.csv")
+to_learn = data #.to_dict(orient="records")
+#the course used to_learn = data.to_dict(orient="records")
+#that way it's easier to add and remove from the dict
 
 #------------------------------- SETUP UI -------------------------------#
 # Window
@@ -63,11 +74,11 @@ card = Canvas(width=800, height=526, highlightthickness=0, bg=BACKGROUND_COLOR)
 card.create_image(400,263,image=card_front_img)
 card.grid(column=0,row=0, columnspan=2, rowspan=3)
 
-# Title
+# Title -- the course used canvas.create_text() instead
 title_label = Label(text="French", font=FONT1, bg=FRONTCARD_COLOR)
 title_label.grid(column=0,row=0,  columnspan=2)
 
-# Word
+# Word -- the course used canvas.create_text() instead
 word_label = Label(text="Word", font=FONT2, bg=FRONTCARD_COLOR)
 word_label.grid(column=0,row=1, columnspan=2)
 
