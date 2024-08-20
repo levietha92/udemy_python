@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from pwd_gen import password_generator
 import pyperclip
+import json
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def password_insert():
     new_pwd = password_generator()
@@ -21,11 +22,14 @@ def add_password():
     email = email_entry.get()
     pwd = pwd_entry.get()
     cfm_popup = messagebox.askokcancel(title=website, message=f"You sure?")
+
+    row_insert = {website: {
+        "email": email,
+        "password": pwd
+    }}
     if cfm_popup == True:
-        with open("data.txt", mode="a") as file:
-            row_insert = f"{website} | {email} |  {pwd} \n"
-            print(row_insert)
-            file.write(row_insert)   
+        with open("data.json", mode="w") as file:
+            json.dump(row_insert, file, indent=4) #indent for easy reading
     # then delete them
     website_entry.delete(0,'end')
     pwd_entry.delete(0,'end')
