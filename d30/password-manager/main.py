@@ -28,13 +28,18 @@ def add_password():
         "password": pwd
     }}
     if cfm_popup == True:
-        with open("data.json", mode="r") as file:
-            # Read old data
+        try: #in the case the file already exists
+            file = open("data.json", mode="r")
             data = json.load(file)
-            # Update old data with new data
             data.update(row_insert)
-        with open("data.json", mode="w") as file:
-            json.dump(data, file, indent=4)
+        except: #it might not exist yet
+            file = open("data.json", mode="w")
+            json.dump(row_insert, file, indent=4)
+        else: # if exception doesn't happen i.e file already exists
+            file2 = open("data.json", mode="w")
+            json.dump(data, file2, indent=4)
+        finally:
+            file.close()    
     # then delete them
     website_entry.delete(0,'end')
     pwd_entry.delete(0,'end')

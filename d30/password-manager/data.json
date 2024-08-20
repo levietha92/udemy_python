@@ -1,10 +1,22 @@
 {
-    "llala": {
+    "test_no_json": {
         "email": "mumbojumbo@gmail.com",
-        "password": "237489324"
+        "password": "827345847"
     },
-    "test_add_json": {
+    "test_file_already_exist": {
         "email": "mumbojumbo@gmail.com",
-        "password": "2837y498jd"
+        "password": "238743894"
+    },
+    "test_no_exist_2": {
+        "email": "mumbojumbo@gmail.com",
+        "password": "394jkladsf"
+    },
+    "test_cont": {
+        "email": "mumbojumbo@gmail.com",
+        "password": "23487234"
+    },
+    "anotheronewithout closing sessio": {
+        "email": "mumbojumbo@gmail.com",
+        "password": "287343892"
     }
 }
