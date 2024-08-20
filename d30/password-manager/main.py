@@ -32,7 +32,7 @@ def add_password():
             file = open("data.json", mode="r")
             data = json.load(file)
             data.update(row_insert)
-        except: #it might not exist yet
+        except FileNotFoundError: #it might not exist yet
             file = open("data.json", mode="w")
             json.dump(row_insert, file, indent=4)
         else: # if exception doesn't happen i.e file already exists
