@@ -29,7 +29,7 @@ def show_answer():
     title_label.config(text="English", bg=BACKCARD_COLOR)
     # when users cannot guess then they clicked this option, so this word should be kept in to_learn
     learned.append([fr_word,en_word])
-    pd.DataFrame(learned).to_csv("data/learned.csv")
+    pd.DataFrame(learned).to_csv("data/learned.csv",index=False)
     
 def countdown():
     global timer
@@ -50,11 +50,15 @@ def next_word():
     countdown() #thought of this correctly, yey
     # when users guess correctly, this word should be removed from to_learn
     to_learn.drop(axis=0, index=random_index, inplace=True)
-    to_learn.to_csv("data/to_learn.csv")
+    to_learn.to_csv("data/to_learn.csv", index=False)
 
 #------------------------------- SETUP DATA -------------------------------#
-data = pd.read_csv("data/french_words.csv")
-to_learn = data #.to_dict(orient="records")
+try:
+    data = pd.read_csv("data/to_learn.csv")
+except:
+    data = pd.read_csv("data/french_words.csv")
+finally:
+    to_learn = data #.to_dict(orient="records")
 #the course used to_learn = data.to_dict(orient="records")
 #that way it's easier to add and remove from the dict
 
