@@ -18,5 +18,9 @@
     "anotheronewithout closing sessio": {
         "email": "mumbojumbo@gmail.com",
         "password": "287343892"
+    },
+    "test": {
+        "email": "mumbojumbo@gmail.com",
+        "password": "2837498234"
     }
 }
