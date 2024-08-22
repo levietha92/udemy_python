@@ -23,3 +23,24 @@ data = response.json()
 data['timestamp']
 data['iss_position']['longitude']
 data['iss_position']['latitude']
+
+# https://sunrise-sunset.org/api --> SOME API NEEDS PARAMETERS
+
+import requests
+
+MY_LAT = 48.856613
+MY_LONG = 2.352222
+
+parameter = {
+    "lat": MY_LAT,
+    "lng": MY_LONG, #this comes from their documentation --> request parameters
+    "formatted": 0
+}
+
+response = requests.get(url="https://api.sunrise-sunset.org/json", params=parameter)
+# print(response)
+response.raise_for_status() #need this to raise for status right away
+data = response.json()
+sunrise = data['results']['sunrise']
+sunset = data['results']['sunset']
+sunrise.split("T")[1].split(":")[0]
