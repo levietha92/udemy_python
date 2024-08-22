@@ -1,11 +1,14 @@
 from tkinter import *
+import requests
 
 # https://kanye.rest/
 def get_quote():
-    pass
-    #Write your code here.
-
-
+    try:
+        response = requests.get(url="https://api.kanye.rest")
+        quote = response.json()['quote']
+    except:
+        quote = "Kayne aint feeling Ye today" 
+    canvas.itemconfig(quote_text, text=quote)
 
 window = Tk()
 window.title("Kanye Says...")
