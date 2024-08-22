@@ -48,3 +48,5 @@ else:
         password=my_password
         )
 print(f"Distance: {distance}, LocalTime: {time_now.hour}:{time_now.min}, Sunset:{sunset}")
+
+# to track every 60 seconds can do pythonanywhere or trigger this script with while loop time.sleep(60) seconds.
