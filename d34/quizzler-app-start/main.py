@@ -11,9 +11,10 @@ for question in question_data:
     new_question = Question(question_text, question_answer)
     question_bank.append(new_question)
 
+print(question_bank)
 
 quiz = QuizBrain(question_bank)
-quiz_ui = UI()
+quiz_ui = UI(quiz)
 
 # need to remove this while loop because Tk() has window.mainloop() already
 # while quiz.still_has_questions():
