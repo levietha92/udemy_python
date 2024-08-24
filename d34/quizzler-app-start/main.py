@@ -6,9 +6,11 @@ question_bank = []
 
 for item in question_data:
     question = Question(item['question'], item['correct_answer']) #mini change and it worked
+    # print(question.text) having the quotte problem
+    # print(question.answer) ok
     question_bank.append(question)
 
-
+print(question_bank)
 quiz = QuizBrain(question_bank)
 
 while quiz.still_has_question():
