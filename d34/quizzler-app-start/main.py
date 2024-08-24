@@ -1,24 +1,18 @@
-from question_model import Question
 from data import question_data
+from question_model import Question
 from quiz_brain import QuizBrain
 
-from ui import UI
-
 question_bank = []
-for question in question_data:
-    question_text = question["question"]
-    question_answer = question["correct_answer"]
-    new_question = Question(question_text, question_answer)
-    question_bank.append(new_question)
 
-print(question_bank)
+for item in question_data:
+    question = Question(item['question'], item['correct_answer']) #mini change and it worked
+    question_bank.append(question)
+
 
 quiz = QuizBrain(question_bank)
-quiz_ui = UI(quiz)
 
-# need to remove this while loop because Tk() has window.mainloop() already
-# while quiz.still_has_questions():
-#     quiz.next_question()
+while quiz.still_has_question():
+  quiz.next_question()
 
-print("You've completed the quiz")
-print(f"Your final score was: {quiz.score}/{quiz.question_number}")
+if quiz.still_has_question() == False:
+  print("You have reached the end of the game")
