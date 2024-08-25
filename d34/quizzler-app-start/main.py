@@ -10,10 +10,7 @@ for item in question_data:
     question_bank.append(question)
 
 quiz = QuizBrain(question_bank)
-quiz_ui = QuizUI()
+quiz_ui = QuizUI(quiz)
 
 # while quiz.still_has_question():
-#   quiz.next_question()
-
-if quiz.still_has_question() == False:
-  print("You have reached the end of the game")
+#     quiz.next_question()
