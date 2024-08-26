@@ -53,3 +53,10 @@ for x in range(0,len(data['list'])-1):
         )
 
 print(message.sid)
+
+# using twilio <> whatsapp
+message = client.messages.create(
+  from_='whatsapp:+14155238886',
+  body='Yoohoo rains!',
+  to=f'whatsapp:{my_verified_number}'
+)
