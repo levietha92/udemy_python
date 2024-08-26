@@ -23,18 +23,33 @@ response.raise_for_status()
 data = response.json()
 
 #list of dict!
-forecast = []
+# forecast = []
+# for x in range(0,len(data['list'])-1):
+#     record = {}
+#     record['dt'] = data['list'][x]['dt_txt']
+#     record['id'] = data['list'][x]['weather'][0]['id']
+#     record['desc'] = data['list'][x]['weather'][0]['description']
+#     # check if rain in the next 12 hours
+#     if data['list'][x]['weather'][0]['id'] <700:
+#         record['need_umbrella'] = True
+#     else:
+#         record['need_umbrella'] = False
+#     forecast.append(record)
+
+# forecast
+
+#use twilio to send noti if rains
+
+client = Client(account_sid, auth_token)
+
 for x in range(0,len(data['list'])-1):
-    record = {}
-    record['dt'] = data['list'][x]['dt_txt']
-    record['id'] = data['list'][x]['weather'][0]['id']
-    record['desc'] = data['list'][x]['weather'][0]['description']
-    # check if rain in the next 12 hours
-    if data['list'][x]['weather'][0]['id'] <700:
-        record['need_umbrella'] = True
-    else:
-        record['need_umbrella'] = False
-    forecast.append(record)
+    if data['list'][x]['weather'][0]['id'] < 700:
+        message = client.messages.create(
+        from_='+12568575370',
+        to=my_verified_number,
+        body=f"""Houston we got rain ☔️,
+            expected at {data['list'][x]['dt_txt']}, 
+            {data['list'][x]['weather'][0]['description']}"""
+        )
 
-forecast
-
+print(message.sid)
