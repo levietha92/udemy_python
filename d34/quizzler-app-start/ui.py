@@ -3,6 +3,8 @@ from quiz_brain import QuizBrain
 from question_model import Question
 
 THEME_COLOR = "#063970"
+RIGHT_COLOR = "#abdbe3"
+WRONG_COLOR = "#873e23"
 FONT = ("Arial",30, "normal")
 
 class QuizUI:
@@ -42,18 +44,24 @@ class QuizUI:
         self.window.mainloop()
 
     def get_next_question(self):
+        self.canvas.config(bg="white")
         if self.quiz.still_has_question():
             question_text = self.quiz.next_question()
             self.canvas.itemconfig(self.question_text, text=question_text)
             self.score.config(text=f"Score: {self.quiz.user_score}")
             print(f"{self.quiz.question_number} - {question_text}, {self.quiz.current_question.answer}")
         else:
-            print("You reached the end of the quiz")
+            self.canvas.itemconfig(self.question_text, text="You reached the end of the quiz")
 
     def click_true(self):
-        self.quiz.check_answer(True)
-        print(self.quiz.question_number)
+        self.feedback(self.quiz.check_answer("True"))
 
     def click_false(self):
-        self.quiz.check_answer(False)  
-        print(self.quiz.question_number)    
+        self.feedback(self.quiz.check_answer("False"))
+
+    def feedback(self, is_right):
+        if is_right:
+            self.canvas.config(bg=RIGHT_COLOR)
+        else:
+            self.canvas.config(bg=WRONG_COLOR)
+        self.window.after(1000,func=self.get_next_question) # this is the key to make it move to next question

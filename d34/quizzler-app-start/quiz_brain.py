@@ -20,8 +20,8 @@ class QuizBrain:
         return f"Q.{self.question_number}: {question_asked}"
 
     def check_answer(self, user_answer):
-        correct_answer = bool(self.current_question.answer)
-        if user_answer == correct_answer:
+        correct_answer = self.current_question.answer
+        if user_answer.lower() == correct_answer.lower():
             self.user_score += 1
             return True
         else:
