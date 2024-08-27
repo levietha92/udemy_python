@@ -1,6 +1,7 @@
 import requests
 import os
 from dotenv import load_dotenv
+import datetime as dt
 
 env_path = "/Users/hanna/GitHub/udemy_course/.env"
 load_dotenv(dotenv_path=env_path)
@@ -41,9 +42,10 @@ graph_response.text
 
 # Create a pixel in that graph
 pixel_endpoint = f"{graph_endpoint}/graph1"
+today = dt.datetime(2024,6,1)
 pixel_params = {
-    "date": "20240826",
-    "quantity": "2"
+    "date": today.strftime("%Y%m%d"),
+    "quantity": "20"
 }
 
 pixel_response = requests.post(url=pixel_endpoint,json=pixel_params,headers=headers)
