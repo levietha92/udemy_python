@@ -50,3 +50,18 @@ pixel_params = {
 
 pixel_response = requests.post(url=pixel_endpoint,json=pixel_params,headers=headers)
 pixel_response.text
+
+# Update a pixel
+update_day = today.strftime("%Y%m%d")
+update_pixel_endpoint = f"{pixel_endpoint}/{update_day}"
+update_params = {
+    "quantity": "10"
+}
+
+update_response = requests.put(url=update_pixel_endpoint,json=update_params,headers=headers)
+update_response.text
+
+# Delete a request
+
+delete_response = requests.delete(url=update_pixel_endpoint,headers=headers)
+delete_response.text
