@@ -3,26 +3,9 @@ import os
 import requests
 import datetime as dt
 from pprint import pprint
-
-from amadeus import Client, Location, ResponseError
 # Load environment variables
 env_path = "/Users/hanna/GitHub/udemy_course/.env"
 load_dotenv(dotenv_path=env_path)
-
-
-amadeus = Client(
-    client_id= os.getenv("API_KEY_FLIGHT"),
-    client_secret= os.getenv("API_SECRET_FLIGHT")
-)
-
-try:
-    response = amadeus.reference_data.locations.get(
-        keyword='LON',
-        subType=Location.AIRPORT
-    )    
-    print(response.data)
-except ResponseError as error:
-    print(error)
 
 class FlightSearch:
     def __init__(self):
