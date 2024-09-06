@@ -61,35 +61,3 @@ class FlightSearch:
             return "Not Found"
         # response.raise_for_status()
         
-
-
-### TEST CODE
-flight = FlightSearch()
-flight.access_token
-
-city_name = "ATL"
-response = requests.get(url=f"https://test.api.amadeus.com/v1/reference-data/locations/cities?keyword={city_name}",
-    headers=flight.headers
-)        
-response.raise_for_status()
-response.json()
-
-origin = "HAN"
-destination = "PAR"
-departure_date = "2024-10-01"
-headers = {"Authorization": f"Bearer {flight.access_token}"}
-adults=1
-
-print(f"Getting Flight info for {origin}>{destination}, {departure_date}")
-url = "https://test.api.amadeus.com/v2/shopping/flight-offers"
-parameters = {
-    "originLocationCode": origin,
-    "destinationLocationCode": destination,
-    "departureDate": departure_date,
-    "adults": adults
-}
-response = requests.get(url=url, params=parameters, headers=headers)
-response.raise_for_status()
-response.json()
-
-response.json()['data'][0]['price']['total']

@@ -41,12 +41,3 @@ class FlightData:
                 """
         return to_send_msg
         
-
-
-# filepath = "/Users/hanna/GitHub/udemy_course/d39/flight-deals-start/output/HAN_FRA.txt"
-
-# test = FlightData(filepath)
-# test.lowest_price()
-# test.chosen_flight("HAN","FRA")
-# test.output_df
-# test.output_df['id'][0]
