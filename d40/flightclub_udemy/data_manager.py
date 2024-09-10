@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-SHEETY_PRICES_ENDPOINT = YOUR ENDPOINT HERE
+SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/c52d2b5144f9da103eda087455f6d349/udemyD39Flights/prices"
 
 
 class DataManager:
