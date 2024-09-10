@@ -31,7 +31,7 @@ class FlightSearch:
         print("Token response", response.json())
         return response.json()["access_token"]
 
-    def get_flights(self,origin: str,destination: str, adults=1,departure_date=dt.datetime.today().strftime("%Y-%m-%d")):# 
+    def get_flights(self,origin: str,destination: str, non_stop="true", adults=1,departure_date=dt.datetime.today().strftime("%Y-%m-%d")):
         print(f"Getting Flight info for {origin}>{destination}, {departure_date}")
         endpoint = "v2/shopping/flight-offers"
         url = f"{self.host_domain}/{endpoint}"
@@ -39,7 +39,8 @@ class FlightSearch:
             "originLocationCode": origin,
             "destinationLocationCode": destination,
             "departureDate": departure_date,
-            "adults": adults
+            "adults": adults,
+            "nonStop": non_stop
         }
         try:
             response = requests.get(url=url, params=self.parameters, headers=self.headers)
@@ -61,3 +62,16 @@ class FlightSearch:
             return "Not Found"
         # response.raise_for_status()
         
+
+# url = "https://test.api.amadeus.com/v2/shopping/flight-offers"        
+# access_token = "Fva9ghIQWbmAAPTMQ6808mPzxqy0"
+# headers = {"Authorization": f"Bearer {access_token}"}
+# parameters = {
+#             "originLocationCode": "HAN",
+#             "destinationLocationCode": "SGN",
+#             "departureDate": "2024-09-29",
+#             "adults": 1,
+#             "nonStop": "true"
+#         }
+# response = requests.get(url=url, params=parameters, headers=headers)
+# response.json()

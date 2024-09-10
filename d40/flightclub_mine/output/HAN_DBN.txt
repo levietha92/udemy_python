@@ -2,7 +2,7 @@
     "meta": {
         "count": 0,
         "links": {
-            "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HAN&destinationLocationCode=DBN&departureDate=2024-10-11&adults=1"
+            "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HAN&destinationLocationCode=DBN&departureDate=2024-10-11&adults=1&nonStop=true"
         }
     },
     "data": []
