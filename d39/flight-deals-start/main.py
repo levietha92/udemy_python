@@ -6,7 +6,7 @@ import requests
 import json
 
 data = DataManager()
-sheet_data = data.get_sheet_data()
+sheet_data = data.get_price_data()
 flight_search = FlightSearch()
 origin_code = "HAN"
 departure_date = "2024-10-11"

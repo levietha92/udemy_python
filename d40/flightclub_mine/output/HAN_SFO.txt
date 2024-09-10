@@ -1,6 +1,6 @@
 {
     "meta": {
-        "count": 54,
+        "count": 53,
         "links": {
             "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HAN&destinationLocationCode=SFO&departureDate=2024-10-11&adults=1"
         }
@@ -14,8 +14,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -137,8 +137,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -260,8 +260,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -456,8 +456,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 8,
             "itineraries": [
                 {
@@ -483,7 +483,7 @@
                                 "carrierCode": "NH"
                             },
                             "duration": "PT5H10M",
-                            "id": "105",
+                            "id": "103",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -507,7 +507,7 @@
                                 "carrierCode": "NH"
                             },
                             "duration": "PT9H35M",
-                            "id": "106",
+                            "id": "104",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -551,7 +551,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "105",
+                            "segmentId": "103",
                             "cabin": "ECONOMY",
                             "fareBasis": "KLA7OVYK",
                             "brandedFare": "ECOVAL",
@@ -596,7 +596,7 @@
                             ]
                         },
                         {
-                            "segmentId": "106",
+                            "segmentId": "104",
                             "cabin": "ECONOMY",
                             "fareBasis": "KLA7OVYK",
                             "brandedFare": "ECOVAL",
@@ -1547,7 +1547,7 @@
                                 "carrierCode": "CA"
                             },
                             "duration": "PT3H30M",
-                            "id": "107",
+                            "id": "105",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -1571,7 +1571,7 @@
                                 "carrierCode": "CA"
                             },
                             "duration": "PT12H20M",
-                            "id": "108",
+                            "id": "106",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -1615,7 +1615,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "107",
+                            "segmentId": "105",
                             "cabin": "ECONOMY",
                             "fareBasis": "TORCAS6",
                             "class": "T",
@@ -1624,7 +1624,7 @@
                             }
                         },
                         {
-                            "segmentId": "108",
+                            "segmentId": "106",
                             "cabin": "ECONOMY",
                             "fareBasis": "TORCAS6",
                             "class": "T",
@@ -2556,8 +2556,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -2680,8 +2680,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -2804,9 +2804,9 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
-            "numberOfBookableSeats": 3,
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
+            "numberOfBookableSeats": 6,
             "itineraries": [
                 {
                     "duration": "PT24H55M",
@@ -2928,132 +2928,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
-            "numberOfBookableSeats": 9,
-            "itineraries": [
-                {
-                    "duration": "PT25H55M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "2",
-                                "at": "2024-10-11T23:35:00"
-                            },
-                            "arrival": {
-                                "iataCode": "NRT",
-                                "terminal": "1",
-                                "at": "2024-10-12T06:45:00"
-                            },
-                            "carrierCode": "UA",
-                            "number": "7921",
-                            "aircraft": {
-                                "code": "789"
-                            },
-                            "operating": {
-                                "carrierCode": "NH"
-                            },
-                            "duration": "PT5H10M",
-                            "id": "103",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "HND",
-                                "terminal": "3",
-                                "at": "2024-10-12T17:45:00"
-                            },
-                            "arrival": {
-                                "iataCode": "SFO",
-                                "terminal": "I",
-                                "at": "2024-10-12T11:30:00"
-                            },
-                            "carrierCode": "UA",
-                            "number": "876",
-                            "aircraft": {
-                                "code": "777"
-                            },
-                            "operating": {
-                                "carrierCode": "UA"
-                            },
-                            "duration": "PT9H45M",
-                            "id": "104",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "597.36",
-                "base": "433.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "597.36"
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "UA"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "597.36",
-                        "base": "433.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "103",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "LLA7OVYL",
-                            "class": "L",
-                            "includedCheckedBags": {
-                                "quantity": 2
-                            }
-                        },
-                        {
-                            "segmentId": "104",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "LLA7OVYL",
-                            "class": "L",
-                            "includedCheckedBags": {
-                                "quantity": 2
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "21",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -3170,14 +3046,138 @@
         },
         {
             "type": "flight-offer",
+            "id": "21",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT17H30M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "2",
+                                "at": "2024-10-11T08:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HND",
+                                "terminal": "3",
+                                "at": "2024-10-11T15:05:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "384",
+                            "aircraft": {
+                                "code": "787"
+                            },
+                            "operating": {
+                                "carrierCode": "VN"
+                            },
+                            "duration": "PT5H5M",
+                            "id": "35",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "HND",
+                                "terminal": "3",
+                                "at": "2024-10-11T17:45:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SFO",
+                                "terminal": "I",
+                                "at": "2024-10-11T11:30:00"
+                            },
+                            "carrierCode": "UA",
+                            "number": "876",
+                            "aircraft": {
+                                "code": "777"
+                            },
+                            "operating": {
+                                "carrierCode": "UA"
+                            },
+                            "duration": "PT9H45M",
+                            "id": "36",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "651.23",
+                "base": "442.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "651.23"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UA"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "651.23",
+                        "base": "442.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "35",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "KLA7OVYK",
+                            "class": "E",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "36",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "KLA7OVYK",
+                            "class": "K",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
             "id": "22",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -3300,8 +3300,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -3424,8 +3424,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -3548,132 +3548,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
-            "numberOfBookableSeats": 9,
-            "itineraries": [
-                {
-                    "duration": "PT24H55M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "2",
-                                "at": "2024-10-11T23:35:00"
-                            },
-                            "arrival": {
-                                "iataCode": "NRT",
-                                "terminal": "1",
-                                "at": "2024-10-12T06:45:00"
-                            },
-                            "carrierCode": "UA",
-                            "number": "7921",
-                            "aircraft": {
-                                "code": "789"
-                            },
-                            "operating": {
-                                "carrierCode": "NH"
-                            },
-                            "duration": "PT5H10M",
-                            "id": "99",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "NRT",
-                                "terminal": "1",
-                                "at": "2024-10-12T17:05:00"
-                            },
-                            "arrival": {
-                                "iataCode": "SFO",
-                                "terminal": "I",
-                                "at": "2024-10-12T10:30:00"
-                            },
-                            "carrierCode": "UA",
-                            "number": "838",
-                            "aircraft": {
-                                "code": "77W"
-                            },
-                            "operating": {
-                                "carrierCode": "UA"
-                            },
-                            "duration": "PT9H25M",
-                            "id": "100",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "699.02",
-                "base": "541.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "699.02"
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "UA"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "699.02",
-                        "base": "541.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "99",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "SLA7OVYS",
-                            "class": "S",
-                            "includedCheckedBags": {
-                                "quantity": 2
-                            }
-                        },
-                        {
-                            "segmentId": "100",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "SLA7OVYS",
-                            "class": "S",
-                            "includedCheckedBags": {
-                                "quantity": 2
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "26",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-13",
-            "lastTicketingDateTime": "2024-09-13",
+            "lastTicketingDate": "2024-09-17",
+            "lastTicketingDateTime": "2024-09-17",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -3790,14 +3666,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "27",
+            "id": "26",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-13",
-            "lastTicketingDateTime": "2024-09-13",
+            "lastTicketingDate": "2024-09-17",
+            "lastTicketingDateTime": "2024-09-17",
             "numberOfBookableSeats": 4,
             "itineraries": [
                 {
@@ -3914,14 +3790,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "28",
+            "id": "27",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-13",
-            "lastTicketingDateTime": "2024-09-13",
+            "lastTicketingDate": "2024-09-17",
+            "lastTicketingDateTime": "2024-09-17",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -4155,14 +4031,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "29",
+            "id": "28",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -4265,6 +4141,130 @@
                         },
                         {
                             "segmentId": "78",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "WLA7OVYW",
+                            "class": "W",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "29",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
+            "numberOfBookableSeats": 2,
+            "itineraries": [
+                {
+                    "duration": "PT24H55M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "2",
+                                "at": "2024-10-11T23:35:00"
+                            },
+                            "arrival": {
+                                "iataCode": "NRT",
+                                "terminal": "1",
+                                "at": "2024-10-12T06:45:00"
+                            },
+                            "carrierCode": "UA",
+                            "number": "7921",
+                            "aircraft": {
+                                "code": "789"
+                            },
+                            "operating": {
+                                "carrierCode": "NH"
+                            },
+                            "duration": "PT5H10M",
+                            "id": "99",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "NRT",
+                                "terminal": "1",
+                                "at": "2024-10-12T17:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SFO",
+                                "terminal": "I",
+                                "at": "2024-10-12T10:30:00"
+                            },
+                            "carrierCode": "UA",
+                            "number": "838",
+                            "aircraft": {
+                                "code": "77W"
+                            },
+                            "operating": {
+                                "carrierCode": "UA"
+                            },
+                            "duration": "PT9H25M",
+                            "id": "100",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "807.02",
+                "base": "649.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "807.02"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "UA"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "807.02",
+                        "base": "649.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "99",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "WLA7OVYW",
+                            "class": "W",
+                            "includedCheckedBags": {
+                                "quantity": 2
+                            }
+                        },
+                        {
+                            "segmentId": "100",
                             "cabin": "ECONOMY",
                             "fareBasis": "WLA7OVYW",
                             "class": "W",
@@ -4644,130 +4644,6 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
-            "numberOfBookableSeats": 2,
-            "itineraries": [
-                {
-                    "duration": "PT17H30M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "2",
-                                "at": "2024-10-11T08:00:00"
-                            },
-                            "arrival": {
-                                "iataCode": "HND",
-                                "terminal": "3",
-                                "at": "2024-10-11T15:05:00"
-                            },
-                            "carrierCode": "VN",
-                            "number": "384",
-                            "aircraft": {
-                                "code": "787"
-                            },
-                            "operating": {
-                                "carrierCode": "VN"
-                            },
-                            "duration": "PT5H5M",
-                            "id": "35",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "HND",
-                                "terminal": "3",
-                                "at": "2024-10-11T17:45:00"
-                            },
-                            "arrival": {
-                                "iataCode": "SFO",
-                                "terminal": "I",
-                                "at": "2024-10-11T11:30:00"
-                            },
-                            "carrierCode": "UA",
-                            "number": "876",
-                            "aircraft": {
-                                "code": "777"
-                            },
-                            "operating": {
-                                "carrierCode": "UA"
-                            },
-                            "duration": "PT9H45M",
-                            "id": "36",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "867.23",
-                "base": "658.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "867.23"
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "UA"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "867.23",
-                        "base": "658.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "35",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "SLA7OVYS",
-                            "class": "E",
-                            "includedCheckedBags": {
-                                "quantity": 2
-                            }
-                        },
-                        {
-                            "segmentId": "36",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "SLA7OVYS",
-                            "class": "S",
-                            "includedCheckedBags": {
-                                "quantity": 2
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "33",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
             "lastTicketingDate": "2024-09-30",
             "lastTicketingDateTime": "2024-09-30",
             "numberOfBookableSeats": 9,
@@ -5004,7 +4880,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "34",
+            "id": "33",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5246,7 +5122,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "35",
+            "id": "34",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5487,7 +5363,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "36",
+            "id": "35",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5731,7 +5607,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "37",
+            "id": "36",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5855,7 +5731,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "38",
+            "id": "37",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5979,7 +5855,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "39",
+            "id": "38",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -6103,7 +5979,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "40",
+            "id": "39",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -6331,14 +6207,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "41",
+            "id": "40",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 4,
             "itineraries": [
                 {
@@ -6455,14 +6331,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "42",
+            "id": "41",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 4,
             "itineraries": [
                 {
@@ -6558,9 +6434,9 @@
                         {
                             "segmentId": "37",
                             "cabin": "ECONOMY",
-                            "fareBasis": "GFA0OVXG",
-                            "brandedFare": "PEYFULFLX",
-                            "brandedFareLabel": "PEY I FULLFLEX",
+                            "fareBasis": "YFA0OVXY",
+                            "brandedFare": "ECOFULFLX",
+                            "brandedFareLabel": "ECO I FULLFLEX 2F",
                             "class": "Y",
                             "includedCheckedBags": {
                                 "quantity": 2
@@ -6618,11 +6494,11 @@
                         },
                         {
                             "segmentId": "38",
-                            "cabin": "PREMIUM_ECONOMY",
-                            "fareBasis": "GFA0OVXG",
-                            "brandedFare": "PEYFULFLX",
-                            "brandedFareLabel": "PEY I FULLFLEX",
-                            "class": "G",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YFA0OVXY",
+                            "brandedFare": "ECOFULFLX",
+                            "brandedFareLabel": "ECO I FULLFLEX 2F",
+                            "class": "Y",
                             "includedCheckedBags": {
                                 "quantity": 2
                             },
@@ -6683,14 +6559,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "43",
+            "id": "42",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 4,
             "itineraries": [
                 {
@@ -6911,14 +6787,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "44",
+            "id": "43",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 4,
             "itineraries": [
                 {
@@ -7035,14 +6911,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "45",
+            "id": "44",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -7156,14 +7032,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "46",
+            "id": "45",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-20",
-            "lastTicketingDateTime": "2024-09-20",
+            "lastTicketingDate": "2024-09-24",
+            "lastTicketingDateTime": "2024-09-24",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -7280,7 +7156,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "47",
+            "id": "46",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -7404,7 +7280,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "48",
+            "id": "47",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -7528,7 +7404,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "49",
+            "id": "48",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -7652,7 +7528,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "50",
+            "id": "49",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -7836,7 +7712,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "51",
+            "id": "50",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8020,7 +7896,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "52",
+            "id": "51",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8264,7 +8140,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "53",
+            "id": "52",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8508,7 +8384,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "54",
+            "id": "53",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,

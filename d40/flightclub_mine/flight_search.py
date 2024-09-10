@@ -31,7 +31,7 @@ class FlightSearch:
         print("Token response", response.json())
         return response.json()["access_token"]
 
-    def get_flights(self,origin: str,destination: str,adults=1,departure_date="2024-08-01"):# departure_date=dt.datetime.today().strftime("%Y-%m-%d")
+    def get_flights(self,origin: str,destination: str, adults=1,departure_date=dt.datetime.today().strftime("%Y-%m-%d")):# 
         print(f"Getting Flight info for {origin}>{destination}, {departure_date}")
         endpoint = "v2/shopping/flight-offers"
         url = f"{self.host_domain}/{endpoint}"

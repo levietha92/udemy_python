@@ -5,8 +5,13 @@ from notification_manager import NotificationManager
 import requests
 import json
 
+""" What we need to update:
+- Instead of just sending the message to my phone number --> send message to User list based on Google Form list
+- Some more details around non-stop flight to be added to the FlightData class, so that users can choose the best for themselves
+"""
+
 data = DataManager()
-sheet_data = data.get_sheet_data()
+sheet_data = data.get_price_data()
 flight_search = FlightSearch()
 origin_code = "HAN"
 departure_date = "2024-10-11"
@@ -45,4 +50,8 @@ for i in range(0, len(sheet_data)):
     if lowest_price < sheet_data[i]['lowestPrice']:
         print("send Twilio")
         noti = NotificationManager()
-        noti.send_message(flight_data.chosen_flight(origin_code=origin_code,destination_code=destination_code))
+        # noti.send_message(flight_data.chosen_flight(origin_code=origin_code,destination_code=destination_code))
+        noti.send_email(
+            to_send_dict=data.get_user_dict(),
+            body=flight_data.chosen_flight(origin_code=origin_code,destination_code=destination_code)
+        )

@@ -397,8 +397,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-11",
-            "lastTicketingDateTime": "2024-09-11",
+            "lastTicketingDate": "2024-09-15",
+            "lastTicketingDateTime": "2024-09-15",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -604,7 +604,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -730,7 +730,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -854,7 +854,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -978,7 +978,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -1104,7 +1104,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -1230,7 +1230,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -1455,8 +1455,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -1577,8 +1577,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -1699,8 +1699,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-08",
-            "lastTicketingDateTime": "2024-09-08",
+            "lastTicketingDate": "2024-09-12",
+            "lastTicketingDateTime": "2024-09-12",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -1790,8 +1790,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -1911,8 +1911,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -2032,8 +2032,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -2152,8 +2152,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -2522,8 +2522,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -2646,8 +2646,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -3142,8 +3142,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -3268,8 +3268,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {

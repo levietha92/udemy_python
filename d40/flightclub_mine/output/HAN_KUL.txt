@@ -1,6 +1,6 @@
 {
     "meta": {
-        "count": 67,
+        "count": 68,
         "links": {
             "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HAN&destinationLocationCode=KUL&departureDate=2024-10-11&adults=1"
         }
@@ -14,8 +14,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-11",
-            "lastTicketingDateTime": "2024-09-11",
+            "lastTicketingDate": "2024-09-15",
+            "lastTicketingDateTime": "2024-09-15",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -133,7 +133,7 @@
                                 "carrierCode": "VJ"
                             },
                             "duration": "PT2H10M",
-                            "id": "129",
+                            "id": "131",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -157,7 +157,7 @@
                                 "carrierCode": "VJ"
                             },
                             "duration": "PT1H55M",
-                            "id": "130",
+                            "id": "132",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -187,7 +187,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -201,7 +201,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "129",
+                            "segmentId": "131",
                             "cabin": "ECONOMY",
                             "fareBasis": "ESP",
                             "class": "E",
@@ -211,7 +211,7 @@
                             }
                         },
                         {
-                            "segmentId": "130",
+                            "segmentId": "132",
                             "cabin": "ECONOMY",
                             "fareBasis": "ESP",
                             "class": "E",
@@ -313,7 +313,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -353,6 +353,266 @@
         {
             "type": "flight-offer",
             "id": "4",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-10-11",
+            "lastTicketingDateTime": "2024-10-11",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT6H15M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "1",
+                                "at": "2024-10-11T12:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SGN",
+                                "terminal": "1",
+                                "at": "2024-10-11T14:15:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "251",
+                            "aircraft": {
+                                "code": "787"
+                            },
+                            "operating": {
+                                "carrierCode": "VN"
+                            },
+                            "duration": "PT2H15M",
+                            "id": "26",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "SGN",
+                                "terminal": "2",
+                                "at": "2024-10-11T16:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "KUL",
+                                "terminal": "1",
+                                "at": "2024-10-11T19:15:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "677",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VN"
+                            },
+                            "duration": "PT2H5M",
+                            "id": "27",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "139.50",
+                "base": "91.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "139.50",
+                "additionalServices": [
+                    {
+                        "amount": "72.09",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VN"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "139.50",
+                        "base": "91.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "26",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "LOXVN",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "27",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "LOXVN",
+                            "class": "L",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "5",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-10-11",
+            "lastTicketingDateTime": "2024-10-11",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT6H15M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "1",
+                                "at": "2024-10-11T12:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SGN",
+                                "terminal": "1",
+                                "at": "2024-10-11T14:20:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "6121",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "BL"
+                            },
+                            "duration": "PT2H20M",
+                            "id": "28",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "SGN",
+                                "terminal": "2",
+                                "at": "2024-10-11T16:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "KUL",
+                                "terminal": "1",
+                                "at": "2024-10-11T19:15:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "677",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VN"
+                            },
+                            "duration": "PT2H5M",
+                            "id": "29",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "139.50",
+                "base": "91.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "139.50",
+                "additionalServices": [
+                    {
+                        "amount": "72.09",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VN"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "139.50",
+                        "base": "91.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "28",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "LOXVN",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "29",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "LOXVN",
+                            "class": "L",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "6",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -504,144 +764,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "5",
+            "id": "7",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-22",
-            "lastTicketingDateTime": "2024-09-22",
-            "numberOfBookableSeats": 9,
-            "itineraries": [
-                {
-                    "duration": "PT6H15M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "1",
-                                "at": "2024-10-11T12:00:00"
-                            },
-                            "arrival": {
-                                "iataCode": "SGN",
-                                "terminal": "1",
-                                "at": "2024-10-11T14:20:00"
-                            },
-                            "carrierCode": "VN",
-                            "number": "6121",
-                            "aircraft": {
-                                "code": "321"
-                            },
-                            "operating": {
-                                "carrierCode": "BL"
-                            },
-                            "duration": "PT2H20M",
-                            "id": "26",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "SGN",
-                                "terminal": "2",
-                                "at": "2024-10-11T16:10:00"
-                            },
-                            "arrival": {
-                                "iataCode": "KUL",
-                                "terminal": "1",
-                                "at": "2024-10-11T19:15:00"
-                            },
-                            "carrierCode": "VN",
-                            "number": "677",
-                            "aircraft": {
-                                "code": "321"
-                            },
-                            "operating": {
-                                "carrierCode": "VN"
-                            },
-                            "duration": "PT2H5M",
-                            "id": "27",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "164.81",
-                "base": "100.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "164.81",
-                "additionalServices": [
-                    {
-                        "amount": "72.09",
-                        "type": "CHECKED_BAGS"
-                    }
-                ]
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "VN"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "164.81",
-                        "base": "100.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "26",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "EVN",
-                            "class": "E",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            }
-                        },
-                        {
-                            "segmentId": "27",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "EOXVNP",
-                            "class": "E",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "6",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -760,14 +890,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "7",
+            "id": "8",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -886,14 +1016,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "8",
+            "id": "9",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -917,7 +1047,7 @@
                                 "carrierCode": "VJ"
                             },
                             "duration": "PT2H10M",
-                            "id": "131",
+                            "id": "133",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -941,7 +1071,7 @@
                                 "carrierCode": "VJ"
                             },
                             "duration": "PT1H55M",
-                            "id": "132",
+                            "id": "134",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -985,7 +1115,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "131",
+                            "segmentId": "133",
                             "cabin": "ECONOMY",
                             "fareBasis": "VOWVJ",
                             "class": "V",
@@ -995,7 +1125,7 @@
                             }
                         },
                         {
-                            "segmentId": "132",
+                            "segmentId": "134",
                             "cabin": "ECONOMY",
                             "fareBasis": "KOWVJ",
                             "class": "K",
@@ -1010,14 +1140,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "9",
+            "id": "10",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-07",
-            "lastTicketingDateTime": "2024-09-07",
+            "lastTicketingDate": "2024-09-11",
+            "lastTicketingDateTime": "2024-09-11",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -1134,7 +1264,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "10",
+            "id": "11",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -1258,7 +1388,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "11",
+            "id": "12",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -1374,136 +1504,6 @@
                             "includedCheckedBags": {
                                 "weight": 25,
                                 "weightUnit": "KG"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "12",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-22",
-            "lastTicketingDateTime": "2024-09-22",
-            "numberOfBookableSeats": 9,
-            "itineraries": [
-                {
-                    "duration": "PT6H15M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "1",
-                                "at": "2024-10-11T12:00:00"
-                            },
-                            "arrival": {
-                                "iataCode": "SGN",
-                                "terminal": "1",
-                                "at": "2024-10-11T14:15:00"
-                            },
-                            "carrierCode": "VN",
-                            "number": "251",
-                            "aircraft": {
-                                "code": "787"
-                            },
-                            "operating": {
-                                "carrierCode": "VN"
-                            },
-                            "duration": "PT2H15M",
-                            "id": "28",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "SGN",
-                                "terminal": "2",
-                                "at": "2024-10-11T16:10:00"
-                            },
-                            "arrival": {
-                                "iataCode": "KUL",
-                                "terminal": "1",
-                                "at": "2024-10-11T19:15:00"
-                            },
-                            "carrierCode": "VN",
-                            "number": "677",
-                            "aircraft": {
-                                "code": "321"
-                            },
-                            "operating": {
-                                "carrierCode": "VN"
-                            },
-                            "duration": "PT2H5M",
-                            "id": "29",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "227.81",
-                "base": "163.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "227.81",
-                "additionalServices": [
-                    {
-                        "amount": "72.09",
-                        "type": "CHECKED_BAGS"
-                    }
-                ]
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "VN"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "227.81",
-                        "base": "163.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "28",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "LVN",
-                            "class": "L",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            }
-                        },
-                        {
-                            "segmentId": "29",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "EOXVNP",
-                            "class": "E",
-                            "includedCheckedBags": {
-                                "quantity": 1
                             }
                         }
                     ]
@@ -1793,7 +1793,7 @@
                                 "carrierCode": "CI"
                             },
                             "duration": "PT2H45M",
-                            "id": "87",
+                            "id": "89",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -1817,7 +1817,7 @@
                                 "carrierCode": "CI"
                             },
                             "duration": "PT4H40M",
-                            "id": "88",
+                            "id": "90",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -1867,7 +1867,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "87",
+                            "segmentId": "89",
                             "cabin": "ECONOMY",
                             "fareBasis": "NOVN",
                             "class": "N",
@@ -1876,7 +1876,7 @@
                             }
                         },
                         {
-                            "segmentId": "88",
+                            "segmentId": "90",
                             "cabin": "ECONOMY",
                             "fareBasis": "NOVN",
                             "class": "N",
@@ -1891,136 +1891,6 @@
         {
             "type": "flight-offer",
             "id": "16",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
-            "lastTicketingDate": "2024-10-11",
-            "lastTicketingDateTime": "2024-10-11",
-            "numberOfBookableSeats": 9,
-            "itineraries": [
-                {
-                    "duration": "PT24H50M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "2",
-                                "at": "2024-10-11T11:35:00"
-                            },
-                            "arrival": {
-                                "iataCode": "TPE",
-                                "terminal": "1",
-                                "at": "2024-10-11T15:20:00"
-                            },
-                            "carrierCode": "CI",
-                            "number": "792",
-                            "aircraft": {
-                                "code": "32Q"
-                            },
-                            "operating": {
-                                "carrierCode": "CI"
-                            },
-                            "duration": "PT2H45M",
-                            "id": "119",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "TPE",
-                                "terminal": "1",
-                                "at": "2024-10-12T08:45:00"
-                            },
-                            "arrival": {
-                                "iataCode": "KUL",
-                                "terminal": "1",
-                                "at": "2024-10-12T13:25:00"
-                            },
-                            "carrierCode": "CI",
-                            "number": "721",
-                            "aircraft": {
-                                "code": "77W"
-                            },
-                            "operating": {
-                                "carrierCode": "CI"
-                            },
-                            "duration": "PT4H40M",
-                            "id": "120",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "254.70",
-                "base": "118.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "254.70",
-                "additionalServices": [
-                    {
-                        "amount": "121.65",
-                        "type": "CHECKED_BAGS"
-                    }
-                ]
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "CI"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "254.70",
-                        "base": "118.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "119",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "NOVN",
-                            "class": "N",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            }
-                        },
-                        {
-                            "segmentId": "120",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "NOVN",
-                            "class": "N",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "17",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -2142,7 +2012,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "18",
+            "id": "17",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -2174,7 +2044,7 @@
                                 "carrierCode": "ZH"
                             },
                             "duration": "PT1H45M",
-                            "id": "109",
+                            "id": "111",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -2197,7 +2067,7 @@
                                 "carrierCode": "ZH"
                             },
                             "duration": "PT4H",
-                            "id": "110",
+                            "id": "112",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -2241,7 +2111,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "109",
+                            "segmentId": "111",
                             "cabin": "ECONOMY",
                             "fareBasis": "LOXRC2VN",
                             "class": "L",
@@ -2250,10 +2120,140 @@
                             }
                         },
                         {
-                            "segmentId": "110",
+                            "segmentId": "112",
                             "cabin": "ECONOMY",
                             "fareBasis": "TO7RCCY",
                             "class": "T",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "18",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-10-11",
+            "lastTicketingDateTime": "2024-10-11",
+            "numberOfBookableSeats": 3,
+            "itineraries": [
+                {
+                    "duration": "PT7H35M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "1",
+                                "at": "2024-10-11T10:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SGN",
+                                "terminal": "1",
+                                "at": "2024-10-11T12:50:00"
+                            },
+                            "carrierCode": "QH",
+                            "number": "211",
+                            "aircraft": {
+                                "code": "320"
+                            },
+                            "operating": {
+                                "carrierCode": "QH"
+                            },
+                            "duration": "PT2H10M",
+                            "id": "85",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "SGN",
+                                "terminal": "2",
+                                "at": "2024-10-11T16:10:00"
+                            },
+                            "arrival": {
+                                "iataCode": "KUL",
+                                "terminal": "1",
+                                "at": "2024-10-11T19:15:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "677",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VN"
+                            },
+                            "duration": "PT2H5M",
+                            "id": "86",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "275.50",
+                "base": "227.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "275.50",
+                "additionalServices": [
+                    {
+                        "amount": "99.12",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "HR"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "275.50",
+                        "base": "227.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "85",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "LESF0",
+                            "class": "L",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "86",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "SOXVN",
+                            "class": "S",
                             "includedCheckedBags": {
                                 "quantity": 1
                             }
@@ -2270,8 +2270,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-13",
-            "lastTicketingDateTime": "2024-09-13",
+            "lastTicketingDate": "2024-09-17",
+            "lastTicketingDateTime": "2024-09-17",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -2646,8 +2646,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-13",
-            "lastTicketingDateTime": "2024-09-13",
+            "lastTicketingDate": "2024-09-17",
+            "lastTicketingDateTime": "2024-09-17",
             "numberOfBookableSeats": 4,
             "itineraries": [
                 {
@@ -2977,7 +2977,7 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT3H20M",
-                            "id": "125",
+                            "id": "127",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -3001,7 +3001,7 @@
                                 "carrierCode": "MH"
                             },
                             "duration": "PT1H10M",
-                            "id": "126",
+                            "id": "128",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -3051,7 +3051,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "125",
+                            "segmentId": "127",
                             "cabin": "ECONOMY",
                             "fareBasis": "POXVN",
                             "class": "P",
@@ -3060,7 +3060,7 @@
                             }
                         },
                         {
-                            "segmentId": "126",
+                            "segmentId": "128",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFMH",
                             "class": "Y",
@@ -3215,51 +3215,59 @@
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
-                    "duration": "PT5H40M",
+                    "duration": "PT10H40M",
                     "segments": [
                         {
                             "departure": {
                                 "iataCode": "HAN",
                                 "terminal": "2",
-                                "at": "2024-10-11T16:10:00"
+                                "at": "2024-10-11T09:30:00"
                             },
                             "arrival": {
-                                "iataCode": "BKK",
-                                "at": "2024-10-11T18:05:00"
+                                "iataCode": "PNH",
+                                "at": "2024-10-11T13:00:00"
                             },
                             "carrierCode": "VN",
-                            "number": "619",
+                            "number": "921",
                             "aircraft": {
-                                "code": "350"
+                                "code": "321"
                             },
                             "operating": {
                                 "carrierCode": "VN"
                             },
-                            "duration": "PT1H55M",
-                            "id": "91",
-                            "numberOfStops": 0,
+                            "duration": "PT3H30M",
+                            "stops": [
+                                {
+                                    "iataCode": "VTE",
+                                    "duration": "PT45M",
+                                    "arrivalAt": "2024-10-11T10:45:00",
+                                    "departureAt": "2024-10-11T11:30:00"
+                                }
+                            ],
+                            "id": "97",
+                            "numberOfStops": 1,
                             "blacklistedInEU": false
                         },
                         {
                             "departure": {
-                                "iataCode": "BKK",
-                                "at": "2024-10-11T19:40:00"
+                                "iataCode": "PNH",
+                                "at": "2024-10-11T18:20:00"
                             },
                             "arrival": {
                                 "iataCode": "KUL",
                                 "terminal": "1",
-                                "at": "2024-10-11T22:50:00"
+                                "at": "2024-10-11T21:10:00"
                             },
                             "carrierCode": "MH",
-                            "number": "781",
+                            "number": "763",
                             "aircraft": {
-                                "code": "73H"
+                                "code": "7M8"
                             },
                             "operating": {
                                 "carrierCode": "MH"
                             },
-                            "duration": "PT2H10M",
-                            "id": "92",
+                            "duration": "PT1H50M",
+                            "id": "98",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -3268,8 +3276,8 @@
             ],
             "price": {
                 "currency": "EUR",
-                "total": "536.93",
-                "base": "466.00",
+                "total": "462.20",
+                "base": "354.00",
                 "fees": [
                     {
                         "amount": "0.00",
@@ -3280,7 +3288,7 @@
                         "type": "TICKETING"
                     }
                 ],
-                "grandTotal": "536.93",
+                "grandTotal": "462.20",
                 "additionalServices": [
                     {
                         "amount": "99.12",
@@ -3295,7 +3303,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "GP"
+                "VN"
             ],
             "travelerPricings": [
                 {
@@ -3304,147 +3312,27 @@
                     "travelerType": "ADULT",
                     "price": {
                         "currency": "EUR",
-                        "total": "536.93",
-                        "base": "466.00"
+                        "total": "462.20",
+                        "base": "354.00"
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "91",
+                            "segmentId": "97",
                             "cabin": "ECONOMY",
-                            "fareBasis": "SOXVN",
-                            "brandedFare": "FLEX",
-                            "brandedFareLabel": "FLEX",
-                            "class": "S",
+                            "fareBasis": "EOXVN",
+                            "class": "E",
                             "includedCheckedBags": {
                                 "quantity": 1
-                            },
-                            "amenities": [
-                                {
-                                    "description": "PRE RESERVED SEAT ASSIGNMENT",
-                                    "isChargeable": false,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "SNACK",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "FAST TRACK",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "TRIP INSURANCE",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CHILD DISCOUNT",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "GO SHOW",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "INFANT DISCOUNT",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                }
-                            ]
+                            }
                         },
                         {
-                            "segmentId": "92",
+                            "segmentId": "98",
                             "cabin": "ECONOMY",
-                            "fareBasis": "YFLOWTH",
-                            "brandedFare": "FLEX",
-                            "brandedFareLabel": "FLEX",
+                            "fareBasis": "YIFMH",
                             "class": "Y",
                             "includedCheckedBags": {
                                 "quantity": 1
-                            },
-                            "amenities": [
-                                {
-                                    "description": "PRE RESERVED SEAT ASSIGNMENT",
-                                    "isChargeable": false,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "SNACK",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "FAST TRACK",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "TRIP INSURANCE",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CHILD DISCOUNT",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "GO SHOW",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "INFANT DISCOUNT",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                }
-                            ]
+                            }
                         }
                     ]
                 }
@@ -3463,51 +3351,59 @@
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
-                    "duration": "PT7H40M",
+                    "duration": "PT10H45M",
                     "segments": [
                         {
                             "departure": {
                                 "iataCode": "HAN",
                                 "terminal": "2",
-                                "at": "2024-10-11T08:50:00"
+                                "at": "2024-10-11T09:25:00"
                             },
                             "arrival": {
-                                "iataCode": "BKK",
-                                "at": "2024-10-11T10:50:00"
+                                "iataCode": "PNH",
+                                "at": "2024-10-11T13:00:00"
                             },
                             "carrierCode": "VN",
-                            "number": "611",
+                            "number": "923",
                             "aircraft": {
-                                "code": "350"
+                                "code": "359"
                             },
                             "operating": {
                                 "carrierCode": "VN"
                             },
-                            "duration": "PT2H",
-                            "id": "97",
-                            "numberOfStops": 0,
+                            "duration": "PT3H35M",
+                            "stops": [
+                                {
+                                    "iataCode": "VTE",
+                                    "duration": "PT45M",
+                                    "arrivalAt": "2024-10-11T10:45:00",
+                                    "departureAt": "2024-10-11T11:30:00"
+                                }
+                            ],
+                            "id": "107",
+                            "numberOfStops": 1,
                             "blacklistedInEU": false
                         },
                         {
                             "departure": {
-                                "iataCode": "BKK",
-                                "at": "2024-10-11T14:15:00"
+                                "iataCode": "PNH",
+                                "at": "2024-10-11T18:20:00"
                             },
                             "arrival": {
                                 "iataCode": "KUL",
                                 "terminal": "1",
-                                "at": "2024-10-11T17:30:00"
+                                "at": "2024-10-11T21:10:00"
                             },
                             "carrierCode": "MH",
-                            "number": "789",
+                            "number": "763",
                             "aircraft": {
-                                "code": "73H"
+                                "code": "7M8"
                             },
                             "operating": {
                                 "carrierCode": "MH"
                             },
-                            "duration": "PT2H15M",
-                            "id": "98",
+                            "duration": "PT1H50M",
+                            "id": "108",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -3516,8 +3412,8 @@
             ],
             "price": {
                 "currency": "EUR",
-                "total": "536.93",
-                "base": "466.00",
+                "total": "490.64",
+                "base": "391.00",
                 "fees": [
                     {
                         "amount": "0.00",
@@ -3528,7 +3424,7 @@
                         "type": "TICKETING"
                     }
                 ],
-                "grandTotal": "536.93",
+                "grandTotal": "490.64",
                 "additionalServices": [
                     {
                         "amount": "99.12",
@@ -3543,7 +3439,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "GP"
+                "VN"
             ],
             "travelerPricings": [
                 {
@@ -3552,147 +3448,27 @@
                     "travelerType": "ADULT",
                     "price": {
                         "currency": "EUR",
-                        "total": "536.93",
-                        "base": "466.00"
+                        "total": "490.64",
+                        "base": "391.00"
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "97",
+                            "segmentId": "107",
                             "cabin": "ECONOMY",
-                            "fareBasis": "SOXVN",
-                            "brandedFare": "FLEX",
-                            "brandedFareLabel": "FLEX",
-                            "class": "S",
+                            "fareBasis": "ROXVN",
+                            "class": "R",
                             "includedCheckedBags": {
                                 "quantity": 1
-                            },
-                            "amenities": [
-                                {
-                                    "description": "PRE RESERVED SEAT ASSIGNMENT",
-                                    "isChargeable": false,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "SNACK",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "FAST TRACK",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "TRIP INSURANCE",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CHILD DISCOUNT",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "GO SHOW",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "INFANT DISCOUNT",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                }
-                            ]
+                            }
                         },
                         {
-                            "segmentId": "98",
+                            "segmentId": "108",
                             "cabin": "ECONOMY",
-                            "fareBasis": "YFLOWTH",
-                            "brandedFare": "FLEX",
-                            "brandedFareLabel": "FLEX",
+                            "fareBasis": "YIFMH",
                             "class": "Y",
                             "includedCheckedBags": {
                                 "quantity": 1
-                            },
-                            "amenities": [
-                                {
-                                    "description": "PRE RESERVED SEAT ASSIGNMENT",
-                                    "isChargeable": false,
-                                    "amenityType": "PRE_RESERVED_SEAT",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "SNACK",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "FAST TRACK",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "TRIP INSURANCE",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CHILD DISCOUNT",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "GO SHOW",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "INFANT DISCOUNT",
-                                    "isChargeable": false,
-                                    "amenityType": "TRAVEL_SERVICES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                }
-                            ]
+                            }
                         }
                     ]
                 }
@@ -4421,7 +4197,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "HR"
+                "GP"
             ],
             "travelerPricings": [
                 {
@@ -4491,7 +4267,7 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT3H20M",
-                            "id": "113",
+                            "id": "117",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -4515,7 +4291,7 @@
                                 "carrierCode": "SQ"
                             },
                             "duration": "PT1H",
-                            "id": "114",
+                            "id": "118",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -4565,7 +4341,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "113",
+                            "segmentId": "117",
                             "cabin": "ECONOMY",
                             "fareBasis": "SOXVN",
                             "brandedFare": "YCLFLEXI",
@@ -4634,7 +4410,7 @@
                             ]
                         },
                         {
-                            "segmentId": "114",
+                            "segmentId": "118",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFSQ",
                             "brandedFare": "YCLFLEXI",
@@ -5116,7 +4892,7 @@
                                 "carrierCode": "TG"
                             },
                             "duration": "PT1H50M",
-                            "id": "123",
+                            "id": "125",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -5139,7 +4915,7 @@
                                 "carrierCode": "MH"
                             },
                             "duration": "PT2H15M",
-                            "id": "124",
+                            "id": "126",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -5183,7 +4959,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "123",
+                            "segmentId": "125",
                             "cabin": "ECONOMY",
                             "fareBasis": "Y1YOTG",
                             "brandedFare": "FLEX",
@@ -5253,7 +5029,7 @@
                             ]
                         },
                         {
-                            "segmentId": "124",
+                            "segmentId": "126",
                             "cabin": "ECONOMY",
                             "fareBasis": "YFLOWTH",
                             "brandedFare": "FLEX",
@@ -5329,132 +5105,6 @@
         {
             "type": "flight-offer",
             "id": "38",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
-            "lastTicketingDate": "2024-10-11",
-            "lastTicketingDateTime": "2024-10-11",
-            "numberOfBookableSeats": 9,
-            "itineraries": [
-                {
-                    "duration": "PT6H55M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "1",
-                                "at": "2024-10-11T06:00:00"
-                            },
-                            "arrival": {
-                                "iataCode": "SGN",
-                                "terminal": "1",
-                                "at": "2024-10-11T08:15:00"
-                            },
-                            "carrierCode": "VN",
-                            "number": "243",
-                            "aircraft": {
-                                "code": "787"
-                            },
-                            "operating": {
-                                "carrierCode": "VN"
-                            },
-                            "duration": "PT2H15M",
-                            "id": "127",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "SGN",
-                                "terminal": "2",
-                                "at": "2024-10-11T11:00:00"
-                            },
-                            "arrival": {
-                                "iataCode": "KUL",
-                                "terminal": "1",
-                                "at": "2024-10-11T13:55:00"
-                            },
-                            "carrierCode": "MH",
-                            "number": "751",
-                            "aircraft": {
-                                "code": "73H"
-                            },
-                            "operating": {
-                                "carrierCode": "MH"
-                            },
-                            "duration": "PT1H55M",
-                            "id": "128",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "719.68",
-                "base": "670.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "719.68"
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "VN"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "719.68",
-                        "base": "670.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "127",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "NVN",
-                            "class": "N",
-                            "includedCheckedBags": {
-                                "weight": 30,
-                                "weightUnit": "KG"
-                            }
-                        },
-                        {
-                            "segmentId": "128",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "YIFMH",
-                            "class": "Y",
-                            "includedCheckedBags": {
-                                "weight": 30,
-                                "weightUnit": "KG"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "39",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5582,7 +5232,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "40",
+            "id": "39",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5710,7 +5360,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "41",
+            "id": "40",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5743,7 +5393,7 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT2H15M",
-                            "id": "121",
+                            "id": "123",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -5767,7 +5417,7 @@
                                 "carrierCode": "MH"
                             },
                             "duration": "PT1H55M",
-                            "id": "122",
+                            "id": "124",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -5811,7 +5461,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "121",
+                            "segmentId": "123",
                             "cabin": "ECONOMY",
                             "fareBasis": "LVN",
                             "class": "L",
@@ -5821,7 +5471,7 @@
                             }
                         },
                         {
-                            "segmentId": "122",
+                            "segmentId": "124",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFMH",
                             "class": "Y",
@@ -5836,7 +5486,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "42",
+            "id": "41",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -5962,7 +5612,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "43",
+            "id": "42",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -6088,7 +5738,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "44",
+            "id": "43",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -6200,6 +5850,132 @@
                         },
                         {
                             "segmentId": "96",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YIFMH",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "weight": 30,
+                                "weightUnit": "KG"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "44",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-10-11",
+            "lastTicketingDateTime": "2024-10-11",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT6H55M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "1",
+                                "at": "2024-10-11T06:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SGN",
+                                "terminal": "1",
+                                "at": "2024-10-11T08:15:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "243",
+                            "aircraft": {
+                                "code": "787"
+                            },
+                            "operating": {
+                                "carrierCode": "VN"
+                            },
+                            "duration": "PT2H15M",
+                            "id": "129",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "SGN",
+                                "terminal": "2",
+                                "at": "2024-10-11T11:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "KUL",
+                                "terminal": "1",
+                                "at": "2024-10-11T13:55:00"
+                            },
+                            "carrierCode": "MH",
+                            "number": "751",
+                            "aircraft": {
+                                "code": "73H"
+                            },
+                            "operating": {
+                                "carrierCode": "MH"
+                            },
+                            "duration": "PT1H55M",
+                            "id": "130",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "802.37",
+                "base": "769.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "802.37"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "MH"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "802.37",
+                        "base": "769.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "129",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "BVN",
+                            "class": "B",
+                            "includedCheckedBags": {
+                                "weight": 30,
+                                "weightUnit": "KG"
+                            }
+                        },
+                        {
+                            "segmentId": "130",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFMH",
                             "class": "Y",
@@ -6481,7 +6257,7 @@
                                 "carrierCode": "SQ"
                             },
                             "duration": "PT3H30M",
-                            "id": "115",
+                            "id": "119",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -6505,7 +6281,7 @@
                                 "carrierCode": "MH"
                             },
                             "duration": "PT1H10M",
-                            "id": "116",
+                            "id": "120",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -6549,7 +6325,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "115",
+                            "segmentId": "119",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFSQ",
                             "brandedFare": "YCLFLEXI",
@@ -6619,7 +6395,7 @@
                             ]
                         },
                         {
-                            "segmentId": "116",
+                            "segmentId": "120",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFMH",
                             "class": "Y",
@@ -6913,7 +6689,7 @@
                                 "carrierCode": "SQ"
                             },
                             "duration": "PT3H30M",
-                            "id": "85",
+                            "id": "87",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -6937,7 +6713,7 @@
                                 "carrierCode": "SQ"
                             },
                             "duration": "PT1H",
-                            "id": "86",
+                            "id": "88",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -6981,7 +6757,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "85",
+                            "segmentId": "87",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFSQ",
                             "brandedFare": "YCLFLEXI",
@@ -7051,7 +6827,7 @@
                             ]
                         },
                         {
-                            "segmentId": "86",
+                            "segmentId": "88",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFSQ",
                             "brandedFare": "YCLFLEXI",
@@ -7217,7 +6993,7 @@
                 "includedCheckedBagsOnly": true
             },
             "validatingAirlineCodes": [
-                "GP"
+                "HR"
             ],
             "travelerPricings": [
                 {
@@ -7380,8 +7156,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-13",
-            "lastTicketingDateTime": "2024-09-13",
+            "lastTicketingDate": "2024-09-17",
+            "lastTicketingDateTime": "2024-09-17",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -7510,8 +7286,242 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-10-04",
-            "lastTicketingDateTime": "2024-10-04",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
+            "numberOfBookableSeats": 3,
+            "itineraries": [
+                {
+                    "duration": "PT40H45M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "at": "2024-10-11T23:05:00"
+                            },
+                            "arrival": {
+                                "iataCode": "IST",
+                                "at": "2024-10-12T05:20:00"
+                            },
+                            "carrierCode": "TK",
+                            "number": "165",
+                            "aircraft": {
+                                "code": "359"
+                            },
+                            "operating": {
+                                "carrierCode": "TK"
+                            },
+                            "duration": "PT10H15M",
+                            "id": "115",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "IST",
+                                "at": "2024-10-13T01:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "KUL",
+                                "at": "2024-10-13T16:50:00"
+                            },
+                            "carrierCode": "TK",
+                            "number": "60",
+                            "aircraft": {
+                                "code": "77W"
+                            },
+                            "operating": {
+                                "carrierCode": "TK"
+                            },
+                            "duration": "PT10H30M",
+                            "id": "116",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "1144.14",
+                "base": "861.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "1144.14"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "TK"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "1144.14",
+                        "base": "861.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "115",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "QY2PX1M",
+                            "brandedFare": "RS",
+                            "brandedFareLabel": "RESTRICTED",
+                            "class": "Q",
+                            "includedCheckedBags": {
+                                "weight": 30,
+                                "weightUnit": "KG"
+                            },
+                            "amenities": [
+                                {
+                                    "description": "BAG INCLUDED",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MEAL SERVICE",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "STANDART SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "REFUNDABLE TICKET",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHANGEABLE TICKET",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "ONLINE MESSAGE RIGHT",
+                                    "isChargeable": false,
+                                    "amenityType": "ENTERTAINMENT",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "FRONT SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "segmentId": "116",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "TT1XP",
+                            "brandedFare": "PS",
+                            "brandedFareLabel": "PROMOTIONAL",
+                            "class": "T",
+                            "includedCheckedBags": {
+                                "weight": 30,
+                                "weightUnit": "KG"
+                            },
+                            "amenities": [
+                                {
+                                    "description": "BAG INCLUDED",
+                                    "isChargeable": false,
+                                    "amenityType": "BAGGAGE",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MEAL SERVICE",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "STANDART SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHANGEABLE TICKET",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "ONLINE MESSAGE RIGHT",
+                                    "isChargeable": false,
+                                    "amenityType": "ENTERTAINMENT",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "FRONT SEAT SELECTION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "52",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-10-08",
+            "lastTicketingDateTime": "2024-10-08",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -7628,7 +7638,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "52",
+            "id": "53",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -7660,7 +7670,7 @@
                                 "carrierCode": "ZH"
                             },
                             "duration": "PT1H45M",
-                            "id": "111",
+                            "id": "113",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -7683,7 +7693,7 @@
                                 "carrierCode": "ZH"
                             },
                             "duration": "PT4H",
-                            "id": "112",
+                            "id": "114",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -7727,7 +7737,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "111",
+                            "segmentId": "113",
                             "cabin": "ECONOMY",
                             "fareBasis": "TLORCAC",
                             "class": "T",
@@ -7736,7 +7746,7 @@
                             }
                         },
                         {
-                            "segmentId": "112",
+                            "segmentId": "114",
                             "cabin": "ECONOMY",
                             "fareBasis": "YLOFFAB",
                             "class": "Y",
@@ -7750,7 +7760,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "53",
+            "id": "54",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -7872,14 +7882,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "54",
+            "id": "55",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-10-04",
-            "lastTicketingDateTime": "2024-10-04",
+            "lastTicketingDate": "2024-10-08",
+            "lastTicketingDateTime": "2024-10-08",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -8116,7 +8126,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "55",
+            "id": "56",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8238,7 +8248,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "56",
+            "id": "57",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8466,7 +8476,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "57",
+            "id": "58",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8499,7 +8509,7 @@
                                 "carrierCode": "CX"
                             },
                             "duration": "PT2H10M",
-                            "id": "107",
+                            "id": "109",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -8523,7 +8533,7 @@
                                 "carrierCode": "CX"
                             },
                             "duration": "PT3H50M",
-                            "id": "108",
+                            "id": "110",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -8567,7 +8577,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "107",
+                            "segmentId": "109",
                             "cabin": "ECONOMY",
                             "fareBasis": "YQ21VNAO",
                             "brandedFare": "ECONLIGHT",
@@ -8628,7 +8638,7 @@
                             ]
                         },
                         {
-                            "segmentId": "108",
+                            "segmentId": "110",
                             "cabin": "ECONOMY",
                             "fareBasis": "YQ21HKAO",
                             "brandedFare": "ECONLIGHT",
@@ -8694,7 +8704,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "58",
+            "id": "59",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8922,7 +8932,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "59",
+            "id": "60",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8955,7 +8965,7 @@
                                 "carrierCode": "CX"
                             },
                             "duration": "PT2H",
-                            "id": "117",
+                            "id": "121",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -8979,7 +8989,7 @@
                                 "carrierCode": "CX"
                             },
                             "duration": "PT4H",
-                            "id": "118",
+                            "id": "122",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -9023,7 +9033,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "117",
+                            "segmentId": "121",
                             "cabin": "ECONOMY",
                             "fareBasis": "YQ21VNAO",
                             "brandedFare": "ECONLIGHT",
@@ -9084,7 +9094,7 @@
                             ]
                         },
                         {
-                            "segmentId": "118",
+                            "segmentId": "122",
                             "cabin": "ECONOMY",
                             "fareBasis": "YQ21HKAO",
                             "brandedFare": "ECONLIGHT",
@@ -9150,7 +9160,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "60",
+            "id": "61",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -9274,7 +9284,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "61",
+            "id": "62",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -9398,14 +9408,14 @@
         },
         {
             "type": "flight-offer",
-            "id": "62",
+            "id": "63",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-10-04",
-            "lastTicketingDateTime": "2024-10-04",
+            "lastTicketingDate": "2024-10-08",
+            "lastTicketingDateTime": "2024-10-08",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -9528,7 +9538,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "63",
+            "id": "64",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -9756,7 +9766,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "64",
+            "id": "65",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -9789,7 +9799,7 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT5H15M",
-                            "id": "89",
+                            "id": "91",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -9813,7 +9823,7 @@
                                 "carrierCode": "NH"
                             },
                             "duration": "PT7H25M",
-                            "id": "90",
+                            "id": "92",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -9857,7 +9867,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "89",
+                            "segmentId": "91",
                             "cabin": "ECONOMY",
                             "fareBasis": "YFA0TVOY",
                             "brandedFare": "ECOFULFLX",
@@ -9918,7 +9928,7 @@
                             ]
                         },
                         {
-                            "segmentId": "90",
+                            "segmentId": "92",
                             "cabin": "ECONOMY",
                             "fareBasis": "Y2XRTA1",
                             "brandedFare": "ECOFULFLX",
@@ -9984,7 +9994,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "65",
+            "id": "66",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -10212,7 +10222,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "66",
+            "id": "67",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -10440,7 +10450,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "67",
+            "id": "68",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -10693,6 +10703,14 @@
                 "cityCode": "MNL",
                 "countryCode": "PH"
             },
+            "PNH": {
+                "cityCode": "PNH",
+                "countryCode": "KH"
+            },
+            "IST": {
+                "cityCode": "IST",
+                "countryCode": "TR"
+            },
             "SZX": {
                 "cityCode": "SZX",
                 "countryCode": "CN"
@@ -10738,8 +10756,8 @@
             "32N": "AIRBUS A320NEO",
             "320": "AIRBUS A320",
             "321": "AIRBUS A321",
-            "32Q": "AIRBUS A321NEO",
             "332": "AIRBUS A330-200",
+            "32Q": "AIRBUS A321NEO",
             "333": "AIRBUS A330-300",
             "32S": "AIRBUS INDUSTRIE A318/A319/A320/A321",
             "787": "787  ALL SERIES PASSENGER",
@@ -10766,8 +10784,9 @@
             "VJ": "VIETJET AVIATION",
             "OD": "BATIK AIR MALAYSIA",
             "CX": "CATHAY PACIFIC",
-            "CZ": "CHINA SOUTHERN AIRLINES",
             "QH": "BAMBOO AIRWAYS",
+            "CZ": "CHINA SOUTHERN AIRLINES",
+            "TK": "TURKISH AIRLINES",
             "VN": "VIETNAM AIRLINES",
             "MF": "XIAMEN AIRLINES",
             "NH": "ALL NIPPON AIRWAYS",

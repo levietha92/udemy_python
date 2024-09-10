@@ -1,6 +1,6 @@
 {
     "meta": {
-        "count": 55,
+        "count": 56,
         "links": {
             "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HAN&destinationLocationCode=PAR&departureDate=2024-10-11&adults=1"
         }
@@ -171,7 +171,7 @@
                                 "carrierCode": "CA"
                             },
                             "duration": "PT3H30M",
-                            "id": "92",
+                            "id": "94",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -195,7 +195,7 @@
                                 "carrierCode": "CA"
                             },
                             "duration": "PT11H10M",
-                            "id": "93",
+                            "id": "95",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -245,7 +245,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "92",
+                            "segmentId": "94",
                             "cabin": "ECONOMY",
                             "fareBasis": "TORCAS6",
                             "class": "T",
@@ -254,7 +254,7 @@
                             }
                         },
                         {
-                            "segmentId": "93",
+                            "segmentId": "95",
                             "cabin": "ECONOMY",
                             "fareBasis": "TORCAS6",
                             "class": "T",
@@ -544,7 +544,7 @@
                                 "carrierCode": "QR"
                             },
                             "duration": "PT7H15M",
-                            "id": "81",
+                            "id": "83",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -567,7 +567,7 @@
                                 "carrierCode": "QR"
                             },
                             "duration": "PT6H50M",
-                            "id": "82",
+                            "id": "84",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -611,7 +611,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "81",
+                            "segmentId": "83",
                             "cabin": "ECONOMY",
                             "fareBasis": "OLVNP3RO",
                             "brandedFare": "ECLASSIC",
@@ -681,7 +681,7 @@
                             ]
                         },
                         {
-                            "segmentId": "82",
+                            "segmentId": "84",
                             "cabin": "ECONOMY",
                             "fareBasis": "OLVNP3RO",
                             "brandedFare": "ECLASSIC",
@@ -1278,7 +1278,7 @@
                                 "carrierCode": "TK"
                             },
                             "duration": "PT10H15M",
-                            "id": "79",
+                            "id": "81",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -1298,7 +1298,7 @@
                                 "code": "73H"
                             },
                             "duration": "PT3H35M",
-                            "id": "80",
+                            "id": "82",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -1342,7 +1342,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "79",
+                            "segmentId": "81",
                             "cabin": "ECONOMY",
                             "fareBasis": "QF1PXOW",
                             "brandedFare": "RS",
@@ -1412,7 +1412,7 @@
                             ]
                         },
                         {
-                            "segmentId": "80",
+                            "segmentId": "82",
                             "cabin": "ECONOMY",
                             "fareBasis": "QF1PXOW",
                             "brandedFare": "RS",
@@ -1520,7 +1520,7 @@
                                 "carrierCode": "BR"
                             },
                             "duration": "PT2H55M",
-                            "id": "75",
+                            "id": "77",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -1544,7 +1544,7 @@
                                 "carrierCode": "BR"
                             },
                             "duration": "PT15H10M",
-                            "id": "76",
+                            "id": "78",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -1588,7 +1588,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "75",
+                            "segmentId": "77",
                             "cabin": "ECONOMY",
                             "fareBasis": "WOVN",
                             "class": "W",
@@ -1597,7 +1597,7 @@
                             }
                         },
                         {
-                            "segmentId": "76",
+                            "segmentId": "78",
                             "cabin": "ECONOMY",
                             "fareBasis": "WOVN",
                             "class": "W",
@@ -1767,7 +1767,7 @@
                                 "carrierCode": "QR"
                             },
                             "duration": "PT7H15M",
-                            "id": "106",
+                            "id": "108",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -1790,7 +1790,7 @@
                                 "carrierCode": "QR"
                             },
                             "duration": "PT6H50M",
-                            "id": "107",
+                            "id": "109",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -1834,7 +1834,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "106",
+                            "segmentId": "108",
                             "cabin": "ECONOMY",
                             "fareBasis": "NLR9R1RO",
                             "brandedFare": "ECLASSIC",
@@ -1904,7 +1904,7 @@
                             ]
                         },
                         {
-                            "segmentId": "107",
+                            "segmentId": "109",
                             "cabin": "ECONOMY",
                             "fareBasis": "NLR9R1RO",
                             "brandedFare": "ECLASSIC",
@@ -2011,7 +2011,7 @@
                                 "carrierCode": "QR"
                             },
                             "duration": "PT7H15M",
-                            "id": "110",
+                            "id": "112",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -2034,7 +2034,7 @@
                                 "carrierCode": "QR"
                             },
                             "duration": "PT6H50M",
-                            "id": "111",
+                            "id": "113",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -2078,7 +2078,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "110",
+                            "segmentId": "112",
                             "cabin": "ECONOMY",
                             "fareBasis": "NLR9R1RO",
                             "brandedFare": "ECLASSIC",
@@ -2148,7 +2148,7 @@
                             ]
                         },
                         {
-                            "segmentId": "111",
+                            "segmentId": "113",
                             "cabin": "ECONOMY",
                             "fareBasis": "NLR9R1RO",
                             "brandedFare": "ECLASSIC",
@@ -2472,8 +2472,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-13",
-            "lastTicketingDateTime": "2024-09-13",
+            "lastTicketingDate": "2024-09-17",
+            "lastTicketingDateTime": "2024-09-17",
             "numberOfBookableSeats": 5,
             "itineraries": [
                 {
@@ -4033,7 +4033,7 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT12H50M",
-                            "id": "96",
+                            "id": "98",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -4083,7 +4083,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "96",
+                            "segmentId": "98",
                             "cabin": "ECONOMY",
                             "fareBasis": "RLOP4VN",
                             "class": "R",
@@ -4378,7 +4378,7 @@
                                 "carrierCode": "OZ"
                             },
                             "duration": "PT4H20M",
-                            "id": "77",
+                            "id": "79",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -4400,7 +4400,7 @@
                                 "carrierCode": "6X"
                             },
                             "duration": "PT11H17M",
-                            "id": "78",
+                            "id": "80",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -4444,7 +4444,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "77",
+                            "segmentId": "79",
                             "cabin": "ECONOMY",
                             "fareBasis": "YLOSK",
                             "class": "Y",
@@ -4453,7 +4453,7 @@
                             }
                         },
                         {
-                            "segmentId": "78",
+                            "segmentId": "80",
                             "cabin": "ECONOMY",
                             "fareBasis": "YCNV1",
                             "class": "Y",
@@ -4500,7 +4500,7 @@
                                 "carrierCode": "OZ"
                             },
                             "duration": "PT4H10M",
-                            "id": "86",
+                            "id": "88",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -4522,7 +4522,7 @@
                                 "carrierCode": "6X"
                             },
                             "duration": "PT11H17M",
-                            "id": "87",
+                            "id": "89",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -4566,7 +4566,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "86",
+                            "segmentId": "88",
                             "cabin": "ECONOMY",
                             "fareBasis": "YLOSK",
                             "class": "Y",
@@ -4575,7 +4575,7 @@
                             }
                         },
                         {
-                            "segmentId": "87",
+                            "segmentId": "89",
                             "cabin": "ECONOMY",
                             "fareBasis": "YCNV1",
                             "class": "Y",
@@ -4595,8 +4595,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -4929,8 +4929,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -4956,7 +4956,7 @@
                                 "carrierCode": "CX"
                             },
                             "duration": "PT2H10M",
-                            "id": "112",
+                            "id": "114",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -4978,7 +4978,7 @@
                                 "carrierCode": "LH"
                             },
                             "duration": "PT12H35M",
-                            "id": "113",
+                            "id": "115",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -5002,7 +5002,7 @@
                                 "carrierCode": "LH"
                             },
                             "duration": "PT1H35M",
-                            "id": "114",
+                            "id": "116",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -5046,7 +5046,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "112",
+                            "segmentId": "114",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -5115,7 +5115,7 @@
                             ]
                         },
                         {
-                            "segmentId": "113",
+                            "segmentId": "115",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -5184,7 +5184,7 @@
                             ]
                         },
                         {
-                            "segmentId": "114",
+                            "segmentId": "116",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -5264,8 +5264,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -5601,8 +5601,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -5936,8 +5936,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -5963,7 +5963,7 @@
                                 "carrierCode": "CX"
                             },
                             "duration": "PT2H10M",
-                            "id": "115",
+                            "id": "117",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -5985,7 +5985,7 @@
                                 "carrierCode": "LH"
                             },
                             "duration": "PT8H",
-                            "id": "116",
+                            "id": "118",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -6009,7 +6009,7 @@
                                 "carrierCode": "LH"
                             },
                             "duration": "PT1H35M",
-                            "id": "117",
+                            "id": "119",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -6053,7 +6053,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "115",
+                            "segmentId": "117",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -6122,7 +6122,7 @@
                             ]
                         },
                         {
-                            "segmentId": "116",
+                            "segmentId": "118",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -6191,7 +6191,7 @@
                             ]
                         },
                         {
-                            "segmentId": "117",
+                            "segmentId": "119",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -6271,8 +6271,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -6633,136 +6633,6 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT2H15M",
-                            "id": "102",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "SGN",
-                                "terminal": "2",
-                                "at": "2024-10-11T23:25:00"
-                            },
-                            "arrival": {
-                                "iataCode": "CDG",
-                                "terminal": "2E",
-                                "at": "2024-10-12T06:55:00"
-                            },
-                            "carrierCode": "VN",
-                            "number": "15",
-                            "aircraft": {
-                                "code": "359"
-                            },
-                            "operating": {
-                                "carrierCode": "VN"
-                            },
-                            "duration": "PT12H30M",
-                            "id": "103",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "775.91",
-                "base": "631.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "775.91",
-                "additionalServices": [
-                    {
-                        "amount": "135.16",
-                        "type": "CHECKED_BAGS"
-                    }
-                ]
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "VN"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "775.91",
-                        "base": "631.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "102",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "QLOXVN",
-                            "class": "Y",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            }
-                        },
-                        {
-                            "segmentId": "103",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "QLOXVN",
-                            "class": "Q",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "33",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
-            "lastTicketingDate": "2024-10-11",
-            "lastTicketingDateTime": "2024-10-11",
-            "numberOfBookableSeats": 9,
-            "itineraries": [
-                {
-                    "duration": "PT16H55M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "1",
-                                "at": "2024-10-11T19:00:00"
-                            },
-                            "arrival": {
-                                "iataCode": "SGN",
-                                "terminal": "1",
-                                "at": "2024-10-11T21:20:00"
-                            },
-                            "carrierCode": "VN",
-                            "number": "6125",
-                            "aircraft": {
-                                "code": "321"
-                            },
-                            "operating": {
-                                "carrierCode": "BL"
-                            },
-                            "duration": "PT2H20M",
                             "id": "104",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
@@ -6847,6 +6717,136 @@
                         },
                         {
                             "segmentId": "105",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "QLOXVN",
+                            "class": "Q",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "33",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-10-11",
+            "lastTicketingDateTime": "2024-10-11",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT16H55M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "1",
+                                "at": "2024-10-11T19:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SGN",
+                                "terminal": "1",
+                                "at": "2024-10-11T21:20:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "6125",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "BL"
+                            },
+                            "duration": "PT2H20M",
+                            "id": "106",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "SGN",
+                                "terminal": "2",
+                                "at": "2024-10-11T23:25:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "2E",
+                                "at": "2024-10-12T06:55:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "15",
+                            "aircraft": {
+                                "code": "359"
+                            },
+                            "operating": {
+                                "carrierCode": "VN"
+                            },
+                            "duration": "PT12H30M",
+                            "id": "107",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "775.91",
+                "base": "631.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "775.91",
+                "additionalServices": [
+                    {
+                        "amount": "135.16",
+                        "type": "CHECKED_BAGS"
+                    }
+                ]
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "VN"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "775.91",
+                        "base": "631.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "106",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "QLOXVN",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            }
+                        },
+                        {
+                            "segmentId": "107",
                             "cabin": "ECONOMY",
                             "fareBasis": "QLOXVN",
                             "class": "Q",
@@ -7153,7 +7153,7 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT12H50M",
-                            "id": "97",
+                            "id": "99",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -7197,7 +7197,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "97",
+                            "segmentId": "99",
                             "cabin": "ECONOMY",
                             "fareBasis": "TGL0BBSA",
                             "brandedFare": "STANDARD",
@@ -7269,8 +7269,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -7296,7 +7296,7 @@
                                 "carrierCode": "CX"
                             },
                             "duration": "PT2H",
-                            "id": "83",
+                            "id": "85",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -7318,7 +7318,7 @@
                                 "carrierCode": "LH"
                             },
                             "duration": "PT8H",
-                            "id": "84",
+                            "id": "86",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -7342,7 +7342,7 @@
                                 "carrierCode": "EN"
                             },
                             "duration": "PT1H35M",
-                            "id": "85",
+                            "id": "87",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -7386,7 +7386,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "83",
+                            "segmentId": "85",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -7455,7 +7455,7 @@
                             ]
                         },
                         {
-                            "segmentId": "84",
+                            "segmentId": "86",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -7524,7 +7524,7 @@
                             ]
                         },
                         {
-                            "segmentId": "85",
+                            "segmentId": "87",
                             "cabin": "ECONOMY",
                             "fareBasis": "SNCOWPH",
                             "brandedFare": "ECOSAVER",
@@ -7604,342 +7604,8 @@
             "nonHomogeneous": false,
             "oneWay": false,
             "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
-            "numberOfBookableSeats": 9,
-            "itineraries": [
-                {
-                    "duration": "PT28H35M",
-                    "segments": [
-                        {
-                            "departure": {
-                                "iataCode": "HAN",
-                                "terminal": "2",
-                                "at": "2024-10-11T19:55:00"
-                            },
-                            "arrival": {
-                                "iataCode": "HKG",
-                                "terminal": "1",
-                                "at": "2024-10-11T22:55:00"
-                            },
-                            "carrierCode": "CX",
-                            "number": "742",
-                            "aircraft": {
-                                "code": "32Q"
-                            },
-                            "operating": {
-                                "carrierCode": "CX"
-                            },
-                            "duration": "PT2H",
-                            "id": "68",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "HKG",
-                                "at": "2024-10-12T13:00:00"
-                            },
-                            "arrival": {
-                                "iataCode": "MUC",
-                                "at": "2024-10-12T15:00:00"
-                            },
-                            "carrierCode": "LH",
-                            "number": "4683",
-                            "aircraft": {
-                                "code": "388"
-                            },
-                            "operating": {
-                                "carrierCode": "LH"
-                            },
-                            "duration": "PT8H",
-                            "id": "69",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        },
-                        {
-                            "departure": {
-                                "iataCode": "MUC",
-                                "terminal": "2",
-                                "at": "2024-10-12T18:00:00"
-                            },
-                            "arrival": {
-                                "iataCode": "CDG",
-                                "at": "2024-10-12T19:30:00"
-                            },
-                            "carrierCode": "LH",
-                            "number": "4227",
-                            "aircraft": {
-                                "code": "333"
-                            },
-                            "operating": {
-                                "carrierCode": "LH"
-                            },
-                            "duration": "PT1H30M",
-                            "id": "70",
-                            "numberOfStops": 0,
-                            "blacklistedInEU": false
-                        }
-                    ]
-                }
-            ],
-            "price": {
-                "currency": "EUR",
-                "total": "780.36",
-                "base": "474.00",
-                "fees": [
-                    {
-                        "amount": "0.00",
-                        "type": "SUPPLIER"
-                    },
-                    {
-                        "amount": "0.00",
-                        "type": "TICKETING"
-                    }
-                ],
-                "grandTotal": "780.36"
-            },
-            "pricingOptions": {
-                "fareType": [
-                    "PUBLISHED"
-                ],
-                "includedCheckedBagsOnly": true
-            },
-            "validatingAirlineCodes": [
-                "LH"
-            ],
-            "travelerPricings": [
-                {
-                    "travelerId": "1",
-                    "fareOption": "STANDARD",
-                    "travelerType": "ADULT",
-                    "price": {
-                        "currency": "EUR",
-                        "total": "780.36",
-                        "base": "474.00"
-                    },
-                    "fareDetailsBySegment": [
-                        {
-                            "segmentId": "68",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "SNCOWPH",
-                            "brandedFare": "ECOSAVER",
-                            "brandedFareLabel": "ECONOMY SAVER",
-                            "class": "V",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            },
-                            "amenities": [
-                                {
-                                    "description": "CATERING ON EUROPE FLTS",
-                                    "isChargeable": true,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CATERING ON INTERCONT FLTS",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "STANDARD SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "MILEAGE ACCRUAL",
-                                    "isChargeable": false,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "UPGRADE ELIGIBILITY",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "PREFERRED SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CHANGE BEFORE DEPARTURE",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "segmentId": "69",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "SNCOWPH",
-                            "brandedFare": "ECOSAVER",
-                            "brandedFareLabel": "ECONOMY SAVER",
-                            "class": "S",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            },
-                            "amenities": [
-                                {
-                                    "description": "CATERING ON EUROPE FLTS",
-                                    "isChargeable": true,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CATERING ON INTERCONT FLTS",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "STANDARD SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "MILEAGE ACCRUAL",
-                                    "isChargeable": false,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "UPGRADE ELIGIBILITY",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "PREFERRED SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CHANGE BEFORE DEPARTURE",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "segmentId": "70",
-                            "cabin": "ECONOMY",
-                            "fareBasis": "SNCOWPH",
-                            "brandedFare": "ECOSAVER",
-                            "brandedFareLabel": "ECONOMY SAVER",
-                            "class": "S",
-                            "includedCheckedBags": {
-                                "quantity": 1
-                            },
-                            "amenities": [
-                                {
-                                    "description": "CATERING ON EUROPE FLTS",
-                                    "isChargeable": true,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CATERING ON INTERCONT FLTS",
-                                    "isChargeable": false,
-                                    "amenityType": "MEAL",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "STANDARD SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "MILEAGE ACCRUAL",
-                                    "isChargeable": false,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "UPGRADE ELIGIBILITY",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "PREFERRED SEAT RESERVATION",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                },
-                                {
-                                    "description": "CHANGE BEFORE DEPARTURE",
-                                    "isChargeable": true,
-                                    "amenityType": "BRANDED_FARES",
-                                    "amenityProvider": {
-                                        "name": "BrandedFare"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "flight-offer",
-            "id": "39",
-            "source": "GDS",
-            "instantTicketingRequired": false,
-            "nonHomogeneous": false,
-            "oneWay": false,
-            "isUpsellOffer": false,
-            "lastTicketingDate": "2024-09-09",
-            "lastTicketingDateTime": "2024-09-09",
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
             "numberOfBookableSeats": 9,
             "itineraries": [
                 {
@@ -8266,7 +7932,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "40",
+            "id": "39",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8494,7 +8160,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "41",
+            "id": "40",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8527,7 +8193,7 @@
                                 "carrierCode": "KE"
                             },
                             "duration": "PT4H15M",
-                            "id": "100",
+                            "id": "102",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -8551,7 +8217,7 @@
                                 "carrierCode": "AF"
                             },
                             "duration": "PT14H10M",
-                            "id": "101",
+                            "id": "103",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -8595,7 +8261,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "100",
+                            "segmentId": "102",
                             "cabin": "ECONOMY",
                             "fareBasis": "ELE00RSK",
                             "brandedFare": "EYSTANDARD",
@@ -8632,7 +8298,7 @@
                             ]
                         },
                         {
-                            "segmentId": "101",
+                            "segmentId": "103",
                             "cabin": "ECONOMY",
                             "fareBasis": "ELE00RSK",
                             "brandedFare": "EYSTANDARD",
@@ -8674,7 +8340,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "42",
+            "id": "41",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8854,7 +8520,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "43",
+            "id": "42",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -8887,7 +8553,7 @@
                                 "carrierCode": "KE"
                             },
                             "duration": "PT4H35M",
-                            "id": "94",
+                            "id": "96",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -8911,7 +8577,7 @@
                                 "carrierCode": "AF"
                             },
                             "duration": "PT14H10M",
-                            "id": "95",
+                            "id": "97",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -8955,7 +8621,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "94",
+                            "segmentId": "96",
                             "cabin": "ECONOMY",
                             "fareBasis": "ELE00RSK",
                             "brandedFare": "EYSTANDARD",
@@ -8992,7 +8658,7 @@
                             ]
                         },
                         {
-                            "segmentId": "95",
+                            "segmentId": "97",
                             "cabin": "ECONOMY",
                             "fareBasis": "ELE00RSK",
                             "brandedFare": "EYSTANDARD",
@@ -9034,7 +8700,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "44",
+            "id": "43",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -9214,6 +8880,340 @@
         },
         {
             "type": "flight-offer",
+            "id": "44",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-09-13",
+            "lastTicketingDateTime": "2024-09-13",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT28H35M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "2",
+                                "at": "2024-10-11T19:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2024-10-11T22:55:00"
+                            },
+                            "carrierCode": "CX",
+                            "number": "742",
+                            "aircraft": {
+                                "code": "32Q"
+                            },
+                            "operating": {
+                                "carrierCode": "CX"
+                            },
+                            "duration": "PT2H",
+                            "id": "68",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "HKG",
+                                "at": "2024-10-12T13:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "MUC",
+                                "at": "2024-10-12T15:00:00"
+                            },
+                            "carrierCode": "LH",
+                            "number": "4683",
+                            "aircraft": {
+                                "code": "388"
+                            },
+                            "operating": {
+                                "carrierCode": "LH"
+                            },
+                            "duration": "PT8H",
+                            "id": "69",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "MUC",
+                                "terminal": "2",
+                                "at": "2024-10-12T18:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "at": "2024-10-12T19:30:00"
+                            },
+                            "carrierCode": "LH",
+                            "number": "4227",
+                            "aircraft": {
+                                "code": "333"
+                            },
+                            "operating": {
+                                "carrierCode": "LH"
+                            },
+                            "duration": "PT1H30M",
+                            "id": "70",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "875.36",
+                "base": "569.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "875.36"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "LH"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "875.36",
+                        "base": "569.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "68",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "WNCOWPH",
+                            "brandedFare": "ECOSAVER",
+                            "brandedFareLabel": "ECONOMY SAVER",
+                            "class": "V",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CATERING ON EUROPE FLTS",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CATERING ON INTERCONT FLTS",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "STANDARD SEAT RESERVATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "PREFERRED SEAT RESERVATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHANGE BEFORE DEPARTURE",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "segmentId": "69",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "WNCOWPH",
+                            "brandedFare": "ECOSAVER",
+                            "brandedFareLabel": "ECONOMY SAVER",
+                            "class": "W",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CATERING ON EUROPE FLTS",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CATERING ON INTERCONT FLTS",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "STANDARD SEAT RESERVATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "PREFERRED SEAT RESERVATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHANGE BEFORE DEPARTURE",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "segmentId": "70",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "WNCOWPH",
+                            "brandedFare": "ECOSAVER",
+                            "brandedFareLabel": "ECONOMY SAVER",
+                            "class": "W",
+                            "includedCheckedBags": {
+                                "quantity": 1
+                            },
+                            "amenities": [
+                                {
+                                    "description": "CATERING ON EUROPE FLTS",
+                                    "isChargeable": true,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CATERING ON INTERCONT FLTS",
+                                    "isChargeable": false,
+                                    "amenityType": "MEAL",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "STANDARD SEAT RESERVATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "MILEAGE ACCRUAL",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE ELIGIBILITY",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "PREFERRED SEAT RESERVATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CHANGE BEFORE DEPARTURE",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
             "id": "45",
             "source": "GDS",
             "instantTicketingRequired": false,
@@ -9377,7 +9377,7 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT12H5M",
-                            "id": "98",
+                            "id": "100",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -9401,7 +9401,7 @@
                                 "carrierCode": "LH"
                             },
                             "duration": "PT1H15M",
-                            "id": "99",
+                            "id": "101",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -9451,7 +9451,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "98",
+                            "segmentId": "100",
                             "cabin": "ECONOMY",
                             "fareBasis": "QLOXVN",
                             "class": "Q",
@@ -9460,7 +9460,7 @@
                             }
                         },
                         {
-                            "segmentId": "99",
+                            "segmentId": "101",
                             "cabin": "ECONOMY",
                             "fareBasis": "QLOXVN",
                             "class": "Q",
@@ -10003,7 +10003,7 @@
                                 "carrierCode": "VN"
                             },
                             "duration": "PT2H15M",
-                            "id": "88",
+                            "id": "90",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -10025,7 +10025,7 @@
                                 "carrierCode": "AF"
                             },
                             "duration": "PT13H20M",
-                            "id": "89",
+                            "id": "91",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -10069,7 +10069,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "88",
+                            "segmentId": "90",
                             "cabin": "ECONOMY",
                             "fareBasis": "YGS0BFNN",
                             "brandedFare": "FULLFLEX",
@@ -10138,7 +10138,7 @@
                             ]
                         },
                         {
-                            "segmentId": "89",
+                            "segmentId": "91",
                             "cabin": "ECONOMY",
                             "fareBasis": "YGS0BFNN",
                             "brandedFare": "FULLFLEX",
@@ -10245,7 +10245,7 @@
                                 "carrierCode": "MU"
                             },
                             "duration": "PT3H15M",
-                            "id": "108",
+                            "id": "110",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -10269,7 +10269,7 @@
                                 "carrierCode": "MU"
                             },
                             "duration": "PT12H15M",
-                            "id": "109",
+                            "id": "111",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -10313,7 +10313,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "108",
+                            "segmentId": "110",
                             "cabin": "BUSINESS",
                             "fareBasis": "ILE7WCJS",
                             "class": "I",
@@ -10322,7 +10322,7 @@
                             }
                         },
                         {
-                            "segmentId": "109",
+                            "segmentId": "111",
                             "cabin": "ECONOMY",
                             "fareBasis": "YGS0BENA",
                             "class": "Y",
@@ -10461,6 +10461,252 @@
         {
             "type": "flight-offer",
             "id": "53",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2024-10-11",
+            "lastTicketingDateTime": "2024-10-11",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT18H40M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "HAN",
+                                "terminal": "2",
+                                "at": "2024-10-11T07:35:00"
+                            },
+                            "arrival": {
+                                "iataCode": "SIN",
+                                "terminal": "3",
+                                "at": "2024-10-11T11:55:00"
+                            },
+                            "carrierCode": "VN",
+                            "number": "661",
+                            "aircraft": {
+                                "code": "321"
+                            },
+                            "operating": {
+                                "carrierCode": "VN"
+                            },
+                            "duration": "PT3H20M",
+                            "id": "75",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "SIN",
+                                "terminal": "3",
+                                "at": "2024-10-11T13:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "CDG",
+                                "terminal": "1",
+                                "at": "2024-10-11T21:15:00"
+                            },
+                            "carrierCode": "SQ",
+                            "number": "332",
+                            "aircraft": {
+                                "code": "359"
+                            },
+                            "operating": {
+                                "carrierCode": "SQ"
+                            },
+                            "duration": "PT13H20M",
+                            "id": "76",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "3515.66",
+                "base": "3431.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "3515.66"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "SQ"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "3515.66",
+                        "base": "3431.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "75",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "SOXVN",
+                            "brandedFare": "YCLFLEXI",
+                            "brandedFareLabel": "ECONOMY FLEXI",
+                            "class": "S",
+                            "includedCheckedBags": {
+                                "weight": 30,
+                                "weightUnit": "KG"
+                            },
+                            "amenities": [
+                                {
+                                    "description": "NO SHOW",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SEAT SELECTION STANDARD ZONE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CANCELLATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BOOKING CHANGE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SEAT SELECTION FORWARD ZONE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "100 PERCENT KF MILES EARNED",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE WITH MILES PWM",
+                                    "isChargeable": true,
+                                    "amenityType": "UPGRADES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "segmentId": "76",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YIFSQ",
+                            "brandedFare": "YCLFLEXI",
+                            "brandedFareLabel": "ECONOMY FLEXI",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "weight": 30,
+                                "weightUnit": "KG"
+                            },
+                            "amenities": [
+                                {
+                                    "description": "NO SHOW",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SEAT SELECTION STANDARD ZONE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CANCELLATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BOOKING CHANGE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SEAT SELECTION FORWARD ZONE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "100 PERCENT KF MILES EARNED",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE WITH MILES PWM",
+                                    "isChargeable": true,
+                                    "amenityType": "UPGRADES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "54",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -10706,7 +10952,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "54",
+            "id": "55",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
@@ -10739,7 +10985,7 @@
                                 "carrierCode": "SQ"
                             },
                             "duration": "PT3H30M",
-                            "id": "90",
+                            "id": "92",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         },
@@ -10763,7 +11009,7 @@
                                 "carrierCode": "SQ"
                             },
                             "duration": "PT13H20M",
-                            "id": "91",
+                            "id": "93",
                             "numberOfStops": 0,
                             "blacklistedInEU": false
                         }
@@ -10807,7 +11053,7 @@
                     },
                     "fareDetailsBySegment": [
                         {
-                            "segmentId": "90",
+                            "segmentId": "92",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFSQ",
                             "brandedFare": "YCLFLEXI",
@@ -10877,7 +11123,7 @@
                             ]
                         },
                         {
-                            "segmentId": "91",
+                            "segmentId": "93",
                             "cabin": "ECONOMY",
                             "fareBasis": "YIFSQ",
                             "brandedFare": "YCLFLEXI",
@@ -10952,7 +11198,7 @@
         },
         {
             "type": "flight-offer",
-            "id": "55",
+            "id": "56",
             "source": "GDS",
             "instantTicketingRequired": false,
             "nonHomogeneous": false,
