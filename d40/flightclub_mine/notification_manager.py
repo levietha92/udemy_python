@@ -36,7 +36,7 @@ class NotificationManager:
                 connection.sendmail(
                     from_addr=my_email,
                     to_addrs=email,
-                    msg=f"Subject: Hey {first_name}, your FlightDeal today! \n\n {body}"
+                    msg=f"Subject: Hi {first_name}, your FlightDeal today! \n\n {body}"
                 )
 
 

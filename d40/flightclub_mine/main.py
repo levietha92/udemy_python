@@ -48,7 +48,7 @@ for i in range(0, len(sheet_data)):
     
     # send noti if it is lower price 
     if lowest_price < sheet_data[i]['lowestPrice']:
-        print("send Twilio")
+        print("send Noti")
         noti = NotificationManager()
         # noti.send_message(flight_data.chosen_flight(origin_code=origin_code,destination_code=destination_code))
         noti.send_email(

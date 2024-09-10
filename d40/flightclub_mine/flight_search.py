@@ -31,7 +31,7 @@ class FlightSearch:
         print("Token response", response.json())
         return response.json()["access_token"]
 
-    def get_flights(self,origin: str,destination: str, non_stop="true", adults=1,departure_date=dt.datetime.today().strftime("%Y-%m-%d")):
+    def get_flights(self,origin: str,destination: str, non_stop="false", adults=1,departure_date=dt.datetime.today().strftime("%Y-%m-%d")):
         print(f"Getting Flight info for {origin}>{destination}, {departure_date}")
         endpoint = "v2/shopping/flight-offers"
         url = f"{self.host_domain}/{endpoint}"
@@ -40,7 +40,7 @@ class FlightSearch:
             "destinationLocationCode": destination,
             "departureDate": departure_date,
             "adults": adults,
-            "nonStop": non_stop
+            "nonStop": non_stop #False is the default of API, True can lead to no data
         }
         try:
             response = requests.get(url=url, params=self.parameters, headers=self.headers)
