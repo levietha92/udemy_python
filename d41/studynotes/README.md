@@ -20,3 +20,11 @@ Components
 
 this is possile because the local cache of website on our computer, at refresh --> returns to original codings.
 
+
+## HTML
+HTML tags:
+![alt text](image-4.png)
+
+
+* HTML heading elements
+![alt text](image-5.png)
