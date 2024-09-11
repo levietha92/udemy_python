@@ -33,7 +33,7 @@ HTML tags:
 ![alt text](image-6.png)
 ![alt text](image-7.png)
 
-### Break element
+## Break element
 ![alt text](image-8.png)
 ![alt text](image-9.png)
 
@@ -44,3 +44,11 @@ HTML tags:
 - Indenting is important for readability
 - There can be more in <head></head>
 - Main content of website is in the <body></body>
+
+## List elements
+
+### Unordered list
+![alt text](image-12.png)
+
+### Ordered list
+![alt text](image-13.png)
