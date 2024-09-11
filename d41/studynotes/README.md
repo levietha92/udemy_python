@@ -55,3 +55,12 @@ HTML tags:
 
 ## Nesting and indentation
 ![alt text](image-14.png)
+
+## Anchor elements
+[Anchor Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+
+
+![Single attribute](image-15.png)
+![Many attributes](image-16.png)
+
+![alt text](image-17.png)
