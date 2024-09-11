@@ -64,3 +64,10 @@ HTML tags:
 ![Many attributes](image-16.png)
 
 ![alt text](image-17.png)
+
+## Image elements
+It is a void element, no closing tag
+![alt text](image-18.png)
+![alt text](image-19.png) 
+* the 200 = size of photo
+* the alt text = help read out loud for accessability for people who cannot see the website
