@@ -25,6 +25,14 @@ this is possile because the local cache of website on our computer, at refresh -
 HTML tags:
 ![alt text](image-4.png)
 
-
-* HTML heading elements
+## HTML heading elements
 ![alt text](image-5.png)
+
+## Void elements
+### Horizontal rule element
+![alt text](image-6.png)
+![alt text](image-7.png)
+
+### Break element
+![alt text](image-8.png)
+![alt text](image-9.png)
