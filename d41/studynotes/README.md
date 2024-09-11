@@ -36,3 +36,11 @@ HTML tags:
 ### Break element
 ![alt text](image-8.png)
 ![alt text](image-9.png)
+
+
+## HTML boilerplate
+![alt text](image-10.png)
+
+- Indenting is important for readability
+- There can be more in <head></head>
+- Main content of website is in the <body></body>
