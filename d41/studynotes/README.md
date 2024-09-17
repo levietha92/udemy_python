@@ -85,3 +85,56 @@ It is a void element, no closing tag
 
 - External (mostly used)
 ![alt text](image-22.png)
+
+### CSS selectors
+
+```css
+h1 {
+  color: "red"
+}
+/* In this case the h1 is CSS selector, it will make all Header1 to have this format */
+```
+
+### Class selectors
+
+```css
+.red-heading {
+  color: "red"
+}
+/* After dot, name of class*/
+
+<h2 class = "red-heading">Red</h2>
+<h2>This will not be red-ed</h2>
+
+```
+
+### ID selectors 
+
+```css
+#id_something {
+  color: "red"
+}
+/* After #, name of ID*/
+
+<h2 id = "id_something">Red</h2>
+<h2>This will not be red-ed</h2>
+
+```
+
+Difference between ID vs Class --> applied on 1 vs many elements.
+
+### Attribute selectors
+
+```css
+html_element[attribute] {
+  color: "red"
+}
+/* After dot, name of class*/
+
+<h2 class = "red-heading">Red</h2>
+<h2>This will not be red-ed</h2>
+
+```
+
+![alt text](image-28.png)
+![alt text](image-29.png)
