@@ -136,5 +136,20 @@ html_element[attribute] {
 
 ```
 
-![alt text](image-28.png)
-![alt text](image-29.png)
+
+### Borders
+![alt text](image-31.png)
+![alt text](image-30.png)
+![alt text](image-32.png)
+
+### Paddings
+
+![alt text](image-33.png)
+
+### Margins
+![alt text](image-23.png)
+
+### Content section
+
+![alt text](image-25.png)
+![alt text](image-24.png)
