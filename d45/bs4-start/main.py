@@ -1,40 +1,40 @@
-import os
+import requests
 from bs4 import BeautifulSoup
-import html
-
-with open('website.html') as file:
-    contents = file.read()
-
-print(contents)
-
-soup = BeautifulSoup(contents, "html.parser")
-soup.h3.string
-
-print(soup.prettify())
-
-#find all things belonging to same property
-for tag in soup.find_all(name="a"):
-    # print(tag.getText())
-    print(tag.get("href"))
-
-#find a single particular one
-heading = soup.find(name="h1", id="name")
-print(heading)
-
-section_heading = soup.find(name="h3", class_ = "heading")
-print(section_heading)
-
-# css selectors
-
-company_url = soup.select_one(selector = "p a")
-print(company_url)
 
 
-with open('quiz.html') as file:
-    quiz_html = file.read()
+response = requests.get("https://news.ycombinator.com/news")
+# https://appbrewery.github.io/news.ycombinator.com/ is the static page
 
-soup2 = BeautifulSoup(quiz_html, "html.parser")
-soup2.select("li a")
-soup2
 
-soup2.find("input").get("maxlength")
+soup = BeautifulSoup(response.text, "html.parser")
+print(soup)
+
+title_list = []
+href_list = []
+score_list = []
+
+# for title in soup.find_all(name="span", class_="titleline"):
+#     title_list.append(title.a.string)
+#     href_list.append(title.a.get("href"))
+ 
+# for subtitle in soup.find_all(name="span", class_="score"):
+#     score_list.append(subtitle.getText().split()[0])
+
+articles = soup.find_all(name="span", class_="titleline")
+
+title_list = [title.a.string for title in soup.find_all(name="span", class_="titleline")]
+href_list = [title.a.get("href") for title in articles]
+score_list = [int(subtitle.getText().split()[0]) for subtitle in soup.find_all(name="span", class_="score") ]
+
+# my solution
+for i in range(0,len(score_list)):
+    if score_list[i] == max(score_list):
+        index = i
+
+# better solution
+index = score_list.index(max(score_list))
+
+print(f"""Highest scored title is: {title_list[index]}
+and its link: {href_list[index]}
+and its score: {score_list[index]}
+""")
