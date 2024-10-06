@@ -38,3 +38,12 @@ soup2.select("li a")
 soup2
 
 soup2.find("input").get("maxlength")
+
+# Legality of webscraping
+"""
+Anything behind login wall = illegal
+Commercialized from scraping = sue-able
+If there is API for it, use API (though monies)
+Ethics
+Enter robots.txt at end of .com to find details
+"""
