@@ -17,7 +17,8 @@ print(to_email)
 
 
 TARGET_PRICE = 100
-url = f"https://appbrewery.github.io/instant_pot/"
+# url = f"https://appbrewery.github.io/instant_pot/"
+url = f"https://www.amazon.com/dp/B075CYMYK6?psc=1&ref_=cm_sw_r_cp_ud_ct_FM9M699VKHTT47YD50Q6"
 
 def send_email(subject, message, to_email, password):
     with smtplib.SMTP("smtp.gmail.com") as connection:
@@ -30,10 +31,14 @@ def send_email(subject, message, to_email, password):
 
 #----------------------------------- SCRIPT -----------------------------------#
 
-response = requests.get(url)
+response = requests.get(url, headers={
+    "Accept-Language":"en-US",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+})
+# to show header use this https://myhttpheader.com/
 
 soup = BeautifulSoup(response.text, "html.parser")
-# pprint(soup)
+pprint(soup)
 
 price_box = soup.find_all(name="span", class_="a-price aok-align-center")[0]
 price = [item.getText().split() for item in price_box][0][0]
