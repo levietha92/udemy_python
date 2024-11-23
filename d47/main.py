@@ -40,6 +40,7 @@ response = requests.get(url, headers={
 soup = BeautifulSoup(response.text, "html.parser")
 pprint(soup)
 
+product_name = soup.find_all(name="h1", id="title")[0].getText()
 price_box = soup.find_all(name="span", class_="a-price aok-align-center")[0]
 price = [item.getText().split() for item in price_box][0][0]
 price = float(price.replace('$',''))
@@ -48,7 +49,7 @@ print(price)
 
 if price <= TARGET_PRICE:
     send_email(
-            subject=f"Woohoo price drop! Buy now!",
+            subject=f"Woohoo price drop! Buy now! {product_name}",
             message=f"Price of your favorite item in {url} has dropped to {price}",
             to_email=to_email,
             password=my_password
