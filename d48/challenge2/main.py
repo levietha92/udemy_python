@@ -17,4 +17,17 @@ print(driver.find_element(By.XPATH,value='//*[@id="articlecount"]/a[1]').text)
 print(driver.find_element(By.CSS_SELECTOR,value="#articlecount a").text)
 print(driver.find_elements(By.CSS_SELECTOR,value="#articlecount a")[0].text)
 
+#to click on that number
+stat = driver.find_elements(By.CSS_SELECTOR,value="#articlecount a")[0]
+stat.click()
+
+#to click on a text / Content portal in wiki
+button = driver.find_element(By.LINK_TEXT,value="Content portals")
+button.click()
+
+#to enter text into search box
+textbox = driver.find_element(By.NAME,value="search")
+textbox.send_keys("Python",Keys.ENTER)
+
+
 driver.quit()
