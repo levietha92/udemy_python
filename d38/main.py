@@ -3,7 +3,7 @@ import os
 import datetime as dt
 from dotenv import load_dotenv
 
-env_path = "/Users/hanna/GitHub/udemy_course/.env"
+env_path = "/Users/ha.le/Github/udemy_course/.env"
 load_dotenv(dotenv_path=env_path)
 
 """What we do here?

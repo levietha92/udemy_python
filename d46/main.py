@@ -29,7 +29,7 @@ print(f"Songs are traced from Billboard top 100")
 # print(result)
 
 # connecting to Spotify account
-env_path = "/Users/hanna/GitHub/udemy_course/.env"
+env_path = "/Users/ha.le/Github/udemy_course/.env"
 load_dotenv(dotenv_path=env_path)
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(

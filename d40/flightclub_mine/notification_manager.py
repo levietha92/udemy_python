@@ -4,7 +4,7 @@ from twilio.rest import Client
 import html
 import os
 
-env_path = "/Users/hanna/GitHub/udemy_course/.env"
+env_path = "/Users/ha.le/Github/udemy_course/.env"
 load_dotenv(dotenv_path=env_path)
 
 account_sid = os.getenv("TWILIO_ACCOUNT_SID")

@@ -4,7 +4,7 @@ import requests
 import datetime as dt
 from pprint import pprint
 # Load environment variables
-env_path = "/Users/hanna/GitHub/udemy_course/.env"
+env_path = "/Users/ha.le/Github/udemy_course/.env"
 load_dotenv(dotenv_path=env_path)
 
 class FlightSearch:

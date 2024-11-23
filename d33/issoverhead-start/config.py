@@ -5,7 +5,7 @@ import time
 import math
 
 
-env_path = "/Users/hanna/GitHub/udemy_course/.env"
+env_path = "/Users/ha.le/Github/udemy_course/.env"
 load_dotenv(dotenv_path=env_path)
 my_email = os.getenv("APP_EMAIL")
 my_password = os.getenv("APP_PASSWORD")
