@@ -10,9 +10,9 @@ def hello_world():
 def bye():
     return "BYEEEE"
 
-@app.route("/user/<name>")
-def greet(name):
-    return f"Hola {name} boo"
+@app.route("/user/<name>/<int:number>")
+def greet(name, number):
+    return f"Hola {name} boo, you are {number} yrs old"
 
 if __name__=="__main__":
     app.run(debug=True)
